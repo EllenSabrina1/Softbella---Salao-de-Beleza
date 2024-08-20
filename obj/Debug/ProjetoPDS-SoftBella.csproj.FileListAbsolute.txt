@@ -1,0 +1,17 @@
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\bin\Debug\ProjetoPDS-SoftBella.exe.config
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\bin\Debug\ProjetoPDS-SoftBella.exe
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\bin\Debug\ProjetoPDS-SoftBella.pdb
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\ProjetoPDS-SoftBella.csproj.AssemblyReference.cache
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\MainWindow.g.cs
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\Telas\CadastroDeCliente.g.cs
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\App.g.cs
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\ProjetoPDS-SoftBella_MarkupCompile.cache
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\ProjetoPDS-SoftBella_MarkupCompile.lref
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\MainWindow.baml
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\Telas\CadastroDeCliente.baml
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\ProjetoPDS-SoftBella.g.resources
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\ProjetoPDS_SoftBella.Properties.Resources.resources
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\ProjetoPDS-SoftBella.csproj.GenerateResource.cache
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\ProjetoPDS-SoftBella.csproj.CoreCompileInputs.cache
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\ProjetoPDS-SoftBella.exe
+C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\ProjetoPDS-SoftBella.pdb
