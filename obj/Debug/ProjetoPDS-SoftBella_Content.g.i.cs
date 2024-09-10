@@ -8,14 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/icon%20agenda.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/icon%20cadastrar.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/icon%20caixa.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/icon%20casa.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/icon%20consultar.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/icon%20ficha.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/icon%20receber.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/icon%20relatorio.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/icon%20venda.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/mulher.png")]
 
 
