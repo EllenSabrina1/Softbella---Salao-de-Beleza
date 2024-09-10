@@ -9,7 +9,7 @@
         WindowState="Maximized" 
         WindowStyle="None"
         ResizeMode="NoResize">
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="181*"/>
@@ -97,7 +97,7 @@
             </Grid.RowDefinitions>
 
             <Rectangle Fill="#EDEDE9" RadiusX="20" RadiusY="20" Width="1500" Height="1022"
-                   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 30 0 0"  Stroke="#737373" StrokeThickness="2"/>
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 30 0 0"  Stroke="#737373" StrokeThickness="2"/>
             <TextBlock Text="Cadastrar de Cliente" FontSize="38" FontFamily="Elephant" Margin="60 30 0 0" ></TextBlock>
         </Grid>
 
@@ -125,7 +125,7 @@
                         <TextBlock Text="Obs.:" FontSize="32"></TextBlock>
                         <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10">
                             <TextBox Text="Ex.: Eu quero que meu cabelo cresça" Background="Transparent" BorderBrush="Transparent" FontSize="20" Width="320" Height="79" 
-                                 TextWrapping="Wrap" />
+                               TextWrapping="Wrap" />
                         </Border>
                     </WrapPanel>
 
