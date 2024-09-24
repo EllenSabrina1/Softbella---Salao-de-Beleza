@@ -5,8 +5,261 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjetoPDS_SoftBella.Telas"
         mc:Ignorable="d"
-        Title="CadastroUsuario" Height="450" Width="800">
+        Title="CadastroUsuario"  Height="1080" Width="1920"
+        WindowState="Maximized" 
+        WindowStyle="None"
+        ResizeMode="NoResize">
+
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="181*"/>
+            <RowDefinition Height="179*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="354"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.RowSpan="2" Background="#EDEDE9" >
+
+            <Image Source="/Recursos/Imagens/mulher.png" Width="232" Height="277" RenderTransformOrigin="0.5,0.5"  >
+                <Image.Clip>
+                    <EllipseGeometry Center="122,103." RadiusX="122" RadiusY="103.5"/>
+                </Image.Clip>
+
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.612"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+
+            <TextBlock Text="Ellen Sabrina" FontSize="32" Width="200" Height="42" Margin="0 -20 0 50"/>
+            <TextBlock Text="Especialista em cachos" FontSize="24" Width="255" Height="42" Margin="0 -60 0 50"/>
+            <StackPanel>
+                <WrapPanel  Width="274" >
+                    <Button Content="Inicio" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Image Source="/Recursos/Imagens/Icon casa.png" Width="25" Margin="15 -98 0 0"/>
+                </WrapPanel>
+
+                <WrapPanel Width="274" >
+                    <Button Content="Agenda" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" />
+                    <Image Source="/Recursos/Imagens/Icon agenda.png" Width="25" Margin="15 -98 0 0"/>
+                </WrapPanel>
+
+                <WrapPanel Width="274" >
+                    <Button Content="Caixa" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Image Source="/Recursos/Imagens/Icon caixa.png" Width="25" Margin="15 -98 0 0"/>
+                </WrapPanel>
+
+                <WrapPanel Width="274" >
+                    <Button Content="Venda" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Image Source="/Recursos/Imagens/Icon venda.png" Width="25" Margin="15 -98 0 0"/>
+                </WrapPanel>
+
+                <WrapPanel Width="274" >
+                    <Button Content="Receber" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Image Source="/Recursos/Imagens/Icon receber.png" Width="25" Margin="15 -98 0 0"/>
+                </WrapPanel>
+
+                <WrapPanel Width="274" >
+                    <Button Content="Cadastrar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Image Source="/Recursos/Imagens/Icon cadastrar.png" Width="25" Margin="15 -98 0 0"/>
+                </WrapPanel>
+
+                <WrapPanel Width="274" >
+                    <Button Content="Consultar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Image Source="/Recursos/Imagens/Icon consultar.png" Width="25" Margin="15 -98 0 0"/>
+                </WrapPanel>
+
+                <WrapPanel Width="274" >
+                    <Button Content="Ficha Anamnética" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Image Source="/Recursos/Imagens/Icon ficha.png" Width="25" Margin="15 -98 0 0"/>
+                </WrapPanel>
+
+                <WrapPanel Width="274" >
+                    <Button Content="Relátório" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Image Source="/Recursos/Imagens/Icon relatorio.png" Width="25" Margin="15 -98 0 0"/>
+                </WrapPanel>
+            </StackPanel>
+
+        </StackPanel>
+
+        <!-- Área de Cadastro -->
+        <Grid  Background="#E3D5CA" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle Fill="#EDEDE9" RadiusX="20" RadiusY="20" Width="1500" Height="1022"
+              HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 30 0 0"  Stroke="#737373" StrokeThickness="2"/>
+            <TextBlock Text="Cadastrar Usuário" FontSize="38" FontFamily="Elephant" Margin="60 30 0 0" ></TextBlock>
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.RowSpan="2">
+            <Border CornerRadius="30" BorderBrush="Black" BorderThickness="1" Width="412" Height="921" Margin="50 0 0 0">
+                <StackPanel>
+
+                    <Image Source="/Recursos/Imagens/mulher.png" Width="220" Height="220" RenderTransformOrigin="0.5,0.5"  >
+                        <Image.Clip>
+                            <EllipseGeometry Center="122,103." RadiusX="122" RadiusY="103.5"/>
+                        </Image.Clip>
+
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-0.612"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+
+                    <TextBlock Text="Profissional" FontSize="32" Width="200" Height="42" Margin="0 -20 0 5"></TextBlock>
+
+
+                    <StackPanel>
+                        <ComboBox>
+
+                            <ComboBoxItem>Item 1</ComboBoxItem>
+                            <ComboBoxItem>Item 2</ComboBoxItem>
+                            <ComboBoxItem>Item 3</ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <WrapPanel Width="180" Margin="0 30 90 0">
+                        <TextBlock Text="Sexo:" FontWeight="Bold" FontSize="36"/>
+                        <RadioButton Content="Masculino" FontSize="28" Margin="0 30"/>
+                        <RadioButton Content="Feminino" FontSize="28" Margin="0 30"/>
+                        <RadioButton Content="Outro" FontSize="28"/>
+                    </WrapPanel>
+
+                    <WrapPanel Margin="30 180 30 0">
+                        <TextBlock Text="Obs.:" FontSize="32"></TextBlock>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                            <TextBox Text="Ex.: Sou especialista em cabelos ondulados, mas sou manicure e pedicure também." Background="Transparent" BorderBrush="Transparent" FontSize="20" Width="320" Height="79" 
+           TextWrapping="Wrap" />
+                        </Border>
+                    </WrapPanel>
+                </StackPanel>
+            </Border>
+
+        </Grid>
+
+        <Grid Grid.Column="2" Grid.RowSpan="2">
+            <Border Grid.Column="1" CornerRadius="30" BorderBrush="Black" BorderThickness="1" Width="1030" Height="875" Margin="0 0 70 0">
+                <StackPanel>
+                    <StackPanel Margin="0 20 780 0" >
+                        <TextBlock Text="Id:" Width="25" Margin="0 0 180 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0">
+                            <TextBox Width="179" Height="36" Text="" Background="Transparent" FontSize="20" Margin="0 0 0 0" BorderBrush="Transparent"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="0 20 610 0" >
+                        <TextBlock Text="CPF:" Width="45" Margin="0 0 330 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="0 0 58 0" Width="316" Height="36">
+                            <TextBox Width="179" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="460 -70 0 0" >
+                        <TextBlock Text="Nome:" Width="75" Margin="-500 0 0 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="0 0 58 0" Width="507" Height="36">
+                            <TextBox Width="179" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+
+
+                    <StackPanel Margin="20 20 610 0">
+                        <TextBlock Text="RG:" Width="35" Margin="0 0 350 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="0 0 60 0" Width="316" Height="36">
+                            <TextBox Width="179" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="270 -70 0 0" >
+                        <TextBlock Text="Data de Nascimento:" Width="220" Margin="0 0 170 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="0 0 58 0" Width="316" Height="36">
+                            <TextBox Width="179" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="0 20 680 0" >
+                        <TextBlock Text="Telefone:" Width="100" Margin="0 0 200 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0" Width="316" Height="36">
+                            <TextBox Width="179" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="-390 20 60 0" Width="600">
+                        <TextBlock Text="Email:" Width="90" Margin="0 0 430 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0" Width="545" Height="36">
+                            <TextBox Width="179" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="-300 20 60 0" Width="600">
+                        <TextBlock Text="Confirmar Email" Width="500" Margin="1 0 430 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0" Width="563" Height="36">
+                            <TextBox Width="179" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+                    <StackPanel Margin="0 20 780 0" >
+                        <TextBlock Text="Rua:" Width="50" Margin="0 0 150 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0">
+                            <TextBox Width="282" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="350 -70 400 0" >
+                        <TextBlock Text="Nº:" Width="35" Margin="0 0 180 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="20 0 0 0">
+                            <TextBox Width="179" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="0 20 780 0" >
+                        <TextBlock Text="Bairro:" Width="100" Margin="0 0 100 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0">
+                            <TextBox Width="282" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="350 -73 400 0" >
+                        <TextBlock Text="Cidade:" Width="100" Margin="0 0 100 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0">
+                            <TextBox Width="282" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="10 0 780 0" >
+                        <TextBlock Text="Nível de acesso" Width="286" Margin="-10 20 100 0" FontSize="22"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0">
+                            <TextBox Width="282" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0" TextChanged="TextBox_TextChanged"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="350 -150 400 0" >
+                        <TextBlock Text="Áreas de atuação" Width="200" Margin="0 100 10 10" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0">
+                            <TextBox Width="282" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 20 0 0" RenderTransformOrigin="0.422,0.586"/>
+                        </Border>
+
+                    </StackPanel>
+
+
+
+                </StackPanel>
+            </Border>
+
+        </Grid>
     </Grid>
+
 </Window>
