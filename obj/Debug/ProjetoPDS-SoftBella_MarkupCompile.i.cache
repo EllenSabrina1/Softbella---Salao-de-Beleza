@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\App.xaml
-21889766262
+10-551971877
 
-7-1643715642
+15-1042683991
 13-1310406943
-MainWindow.xaml;Telas\CadastroDeCliente.xaml;
+MainWindow.xaml;Telas\Agendamento.xaml;Telas\Agenda_Rapida.xaml;Telas\CadastroDeCliente.xaml;Telas\Cadastro_servico.xaml;Telas\Caixa_relatorio_produto.xaml;Telas\ConsultarCliente.xaml;Telas\Consultar_Agenda.xaml;Telas\popup_agendar.xaml;Telas\Relatorio_servico.xaml;
 
-True
+False
 

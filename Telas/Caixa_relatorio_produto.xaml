@@ -1,0 +1,378 @@
+﻿<Window x:Class="ProjetoPDS_SoftBella.Telas.Caixa_relatorio_produto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoPDS_SoftBella.Telas"
+        mc:Ignorable="d"
+        Title="Caixa_relatorio_produto" Height="450" Width="800" Background="#E3D5CA">
+    <Grid>
+        <StackPanel >
+            <Border CornerRadius="15" BorderThickness="1" BorderBrush="LightGray" Background="#B9A092" 
+  Width="520" Height="50" HorizontalAlignment="Left" Margin="5,0,0,0">
+                <TextBlock Text="Produto" FontSize="25" FontWeight="Bold" 
+ HorizontalAlignment="Left" VerticalAlignment="Center" Margin="9"/>
+            </Border>
+        </StackPanel>
+
+        <!--ID-->
+        <TextBlock Text="ID" FontSize="20"
+    VerticalAlignment="Top"
+    HorizontalAlignment="Left" Margin="20,67,0,0"/>
+        <TextBox Width="40"
+  Height="30" VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="20,92,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                         BorderBrush="{TemplateBinding BorderBrush}" 
+                         BorderThickness="{TemplateBinding BorderThickness}" 
+                         CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Nome-->
+        <TextBlock Text="Nome" FontSize="20"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="90,67,0,0"/>
+        <TextBox Width="100"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="90,92,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+
+        <!--Marca-->
+        <TextBlock Text="Marca" FontSize="20"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="230,67,0,0"/>
+        <TextBox Width="185"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="230,92,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Grupo-->
+        <TextBlock Text="Grupo" FontSize="20"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="450,67,0,0"/>
+        <TextBox Width="155"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="450,92,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Estoque Venda-->
+        <TextBlock Text="Estoque de Venda" FontSize="18"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="638,67,0,0"/>
+        <TextBox Width="145"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="638,92,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Nome Fornecedor-->
+        <TextBlock Text="Nome Fornecedor" FontSize="16"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="20,150,0,0"/>
+        <TextBox Width="155"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="20,174,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Contato Fornecedor-->
+        <TextBlock Text="Contato Fornecedor" FontSize="16"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="234,150,0,0"/>
+        <TextBox Width="155"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="234,174,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!-- Observações -->
+        <Label Content="Obs:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="20,250,0,0"/>
+        <TextBox Name="txtObs" Width="400" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,280,0,0" TextWrapping="Wrap">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+         BorderBrush="{TemplateBinding BorderBrush}" 
+         BorderThickness="{TemplateBinding BorderThickness}" 
+         CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Custo-->
+        <TextBlock Text="Custo" FontSize="20"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="460,200,0,0"/>
+        <TextBox Width="100"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="460,227,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Preço-->
+        <TextBlock Text="Preço Venda Avista" FontSize="16"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="460,280,0,0"/>
+        <TextBox Width="100"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="460,304,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Preço-->
+        <TextBlock Text="Preço Venda Aprazo" FontSize="16"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="460,350,0,0"/>
+        <TextBox Width="100"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="460,376,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Lucro-->
+        <TextBlock Text="Lucro" FontSize="20"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="660,280,0,0"/>
+        <TextBox Width="50"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="660,304,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <!--Lucro-->
+        <TextBlock Text="Lucro" FontSize="20"
+  VerticalAlignment="Top"
+  HorizontalAlignment="Left" Margin="660,350,0,0"/>
+        <TextBox Width="50"
+Height="30" VerticalAlignment="Top"
+HorizontalAlignment="Left" Margin="660,376,0,0">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border Background="White" 
+                       BorderBrush="{TemplateBinding BorderBrush}" 
+                       BorderThickness="{TemplateBinding BorderThickness}" 
+                       CornerRadius="5" Padding="5">
+                                    <ScrollViewer x:Name="PART_ContentHost"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+                  
+        </TextBox>
+
+        <Button Width="30"
+Height="27"
+VerticalAlignment="Top"
+HorizontalAlignment="Right" Margin="0,10,10,0">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#737373" Offset="1"/>
+                    <GradientStop Color="#D6CCC2" Offset="0"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+            CornerRadius="12" 
+            BorderBrush="#E3D5CA" 
+            BorderThickness="1">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image Source="/Recursos/Imagens/seta.png" Width="17" Height="20" RenderTransformOrigin="0.5,0.5"/>
+        </Button>
+
+
+    </Grid>
+</Window>
