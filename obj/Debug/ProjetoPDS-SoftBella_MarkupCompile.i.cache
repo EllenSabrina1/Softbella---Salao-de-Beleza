@@ -4,17 +4,26 @@
 winexe
 C#
 .cs
-C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\obj\Debug\
+C:\Users\ianna\source\repos\Softbella---Salao-de-Beleza\obj\Debug\
 ProjetoPDS_SoftBella
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\ellen\OneDrive\Documentos\ProjetoPDS-SoftBella\ProjetoPDS-SoftBella\App.xaml
 10-551971877
 
 15-1042683991
 13-1310406943
 MainWindow.xaml;Telas\Agendamento.xaml;Telas\Agenda_Rapida.xaml;Telas\CadastroDeCliente.xaml;Telas\Cadastro_servico.xaml;Telas\Caixa_relatorio_produto.xaml;Telas\ConsultarCliente.xaml;Telas\Consultar_Agenda.xaml;Telas\popup_agendar.xaml;Telas\Relatorio_servico.xaml;
+=======
+C:\Users\ianna\source\repos\Softbella---Salao-de-Beleza\App.xaml
+4-915051576
+
+9-1229157604
+13-1310406943
+MainWindow.xaml;Telas\CadastroDeCliente.xaml;Telas\CadastroUsuario.xaml;Telas\ConsultarUsuario.xaml;
+>>>>>>> 051db2e3ab540e5737184867f32c489f3c604f06
 
 False
 
