@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="teste" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="testando commit" />
     </Grid>
 </Window>
