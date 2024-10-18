@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\2022102020030\Desktop\Softbella---Salao-de-Beleza\obj\Debug\
+C:\Users\bianc\OneDrive\Desktop\Softbella---Salao-de-Beleza\obj\Debug\
 ProjetoPDS_SoftBella
 none
 false
 DEBUG;TRACE
-C:\Users\2022102020030\Desktop\Softbella---Salao-de-Beleza\App.xaml
-11-436080097
-
-16813979369
+C:\Users\bianc\OneDrive\Desktop\Softbella---Salao-de-Beleza\App.xaml
+16-2063017631
+1-600760770
+21-166950793
 13-1310406943
-MainWindow.xaml;Telas\Agendamento.xaml;Telas\Agenda_Rapida.xaml;Telas\CadastroDeCliente.xaml;Telas\Cadastro_servico.xaml;Telas\Caixa_relatorio_produto.xaml;Telas\ConsultarCliente.xaml;Telas\Consultar_Agenda.xaml;Telas\popup_agendar.xaml;Telas\Relatorio_servico.xaml;Telas\teste.xaml;
+MainWindow.xaml;Telas\Agendamento.xaml;Telas\Agenda_Rapida.xaml;Telas\CadastrarUsuario.xaml;Telas\CadastroDeCliente.xaml;Telas\CadastroUsuario.xaml;Telas\Cadastro_servico.xaml;Telas\Caixa_relatorio_produto.xaml;Telas\ConsultarCliente.xaml;Telas\ConsultarServico.xaml;Telas\ConsultarUsuario.xaml;Telas\Consultar_Agenda.xaml;Telas\popup_agendar.xaml;Telas\Relatorio_servico.xaml;Telas\Teste(bianca).xaml;Telas\teste.xaml;
 
 True
 

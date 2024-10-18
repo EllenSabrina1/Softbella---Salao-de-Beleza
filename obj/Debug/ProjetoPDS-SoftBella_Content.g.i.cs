@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/escrever.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/lata-de-lixo.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute(".gitignore")]
 
 
