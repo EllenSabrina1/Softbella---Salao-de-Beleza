@@ -182,7 +182,7 @@
                         <TextBlock Text="Produtos Utilizados" Width="374" Margin="0 5 0 0" FontSize="40"/>
                         <TextBlock Text="Buscar Produtos/Estoque" Margin="15 10 180 0" FontSize="27" HorizontalAlignment="Left"/>
                         <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 10 40 0">
-                            <TextBox Width="100" Height="45" Background="Transparent" FontSize="20" Margin="0 0 0 0" BorderBrush="Transparent" TextChanged="TextBox_TextChanged"/>
+                            <TextBox Width="100" Height="45" Background="Transparent" FontSize="20" Margin="0 0 0 0" BorderBrush="Transparent"/>
                         </Border>
 
                         <StackPanel Margin="0 -30 780 0">
