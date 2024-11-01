@@ -112,6 +112,9 @@
     <Compile Include="Telas\Consultar_Agenda.xaml.cs">
       <DependentUpon>Consultar_Agenda.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\Consultar_Produto.xaml.cs">
+      <DependentUpon>Consultar_Produto.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\popup_agendar.xaml.cs">
       <DependentUpon>popup_agendar.xaml</DependentUpon>
     </Compile>
@@ -163,6 +166,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Telas\Consultar_Agenda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Consultar_Produto.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -99,12 +99,10 @@ HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 30 0 0"  Strok
 
                 </TextBlock>
                 <WrapPanel Margin="60 -900 30 0">
-
-
                     <TextBlock Text="Buscar: " FontSize="32"></TextBlock>
                     <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10">
-                        <TextBox Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Width="320" Height="49" 
-TextWrapping="Wrap" />
+                        <TextBox Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Width="320" Height="45" 
+                            TextWrapping="Wrap" />
                     </Border>
                 </WrapPanel>
 

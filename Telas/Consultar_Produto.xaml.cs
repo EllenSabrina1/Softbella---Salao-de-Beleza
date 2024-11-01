@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace ProjetoPDS_SoftBella.Telas
 {
     /// <summary>
-    /// Lógica interna para Agendamento.xaml
+    /// Lógica interna para Consultar_Produto.xaml
     /// </summary>
-    public partial class Agendamento : Window
+    public partial class Consultar_Produto : Window
     {
-        public Agendamento()
+        public Consultar_Produto()
         {
             InitializeComponent();
-        }
-
-        private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
     }
 }
