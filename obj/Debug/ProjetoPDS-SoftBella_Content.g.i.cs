@@ -8,7 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/escrever.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/imagens/lata-de-lixo.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute(".gitignore")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/projetopds-softbella.exe")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/projetopds-softbella.pdb")]
 
 
