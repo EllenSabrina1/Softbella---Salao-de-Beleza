@@ -68,17 +68,6 @@ namespace ProjetoPDS_SoftBella.Telas {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
-            switch (connectionId)
-            {
-            case 1:
-            
-            #line 245 "..\..\..\Telas\CadastrarUsuario.xaml"
-            ((System.Windows.Controls.TextBox)(target)).TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.TextBox_TextChanged);
-            
-            #line default
-            #line hidden
-            return;
-            }
             this._contentLoaded = true;
         }
     }
