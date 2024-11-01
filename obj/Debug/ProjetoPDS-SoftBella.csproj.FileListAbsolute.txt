@@ -49,3 +49,19 @@ C:\Users\2022102020004\Documents\Projeto SofBella\obj\Debug\ProjetoPDS-SoftBella
 C:\Users\2022102020004\Documents\Projeto SofBella\obj\Debug\ProjetoPDS-SoftBella.csproj.CoreCompileInputs.cache
 C:\Users\2022102020004\Documents\Projeto SofBella\obj\Debug\ProjetoPDS-SoftBella.exe
 C:\Users\2022102020004\Documents\Projeto SofBella\obj\Debug\ProjetoPDS-SoftBella.pdb
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\ProjetoPDS-SoftBella.csproj.AssemblyReference.cache
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\MainWindow.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\Telas\Agendamento.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\Telas\Agenda_Rapida.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\Telas\CadastroDeCliente.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\Telas\Cadastro_servico.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\Telas\Caixa_relatorio_produto.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\Telas\ConsultarCliente.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\Telas\Consultar_Agenda.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\Telas\popup_agendar.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\Telas\Relatorio_servico.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\App.g.cs
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\ProjetoPDS-SoftBella_MarkupCompile.cache
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\ProjetoPDS-SoftBella_MarkupCompile.lref
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\ProjetoPDS-SoftBella.exe
+C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\ProjetoPDS-SoftBella.pdb

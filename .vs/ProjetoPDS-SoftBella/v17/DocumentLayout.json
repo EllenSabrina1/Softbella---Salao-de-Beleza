@@ -1,10 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2022102020004\\Documents\\Projeto SofBella\\",
+  "WorkspaceRootPath": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|c:\\users\\2022102020004\\documents\\projeto sofbella\\telas\\cadastrodecliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|c:\\users\\2022102020030\\documents\\github\\softbella---salao-de-beleza\\telas\\consultar_produto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\consultar_produto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\cadastro_servico.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\cadastro_servico.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\consultarcliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\consultarcliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\consultar_agenda.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\consultar_agenda.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\caixa_relatorio_produto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\caixa_relatorio_produto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\cadastrodecliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\cadastrodecliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\agenda_rapida.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\agenda_rapida.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\agendamento.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\agendamento.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\relatorio_servico.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\relatorio_servico.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\popup_agendar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\popup_agendar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\telas\\agendamento.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0A5AB0-88E0-4D09-A722-C6B7065240CF}|ProjetoPDS-SoftBella.csproj|solutionrelative:telas\\agendamento.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +54,130 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "CadastroDeCliente.xaml",
-              "DocumentMoniker": "C:\\Users\\2022102020004\\Documents\\Projeto SofBella\\Telas\\CadastroDeCliente.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\CadastroDeCliente.xaml",
               "RelativeDocumentMoniker": "Telas\\CadastroDeCliente.xaml",
-              "ToolTip": "C:\\Users\\2022102020004\\Documents\\Projeto SofBella\\Telas\\CadastroDeCliente.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\CadastroDeCliente.xaml",
               "RelativeToolTip": "Telas\\CadastroDeCliente.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-20T13:25:34.722Z",
+              "WhenOpened": "2024-11-01T18:05:22.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Consultar_Produto.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Consultar_Produto.xaml",
+              "RelativeDocumentMoniker": "Telas\\Consultar_Produto.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Consultar_Produto.xaml",
+              "RelativeToolTip": "Telas\\Consultar_Produto.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T18:01:32.057Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cadastro_servico.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Cadastro_servico.xaml",
+              "RelativeDocumentMoniker": "Telas\\Cadastro_servico.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Cadastro_servico.xaml",
+              "RelativeToolTip": "Telas\\Cadastro_servico.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:57:27.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Caixa_relatorio_produto.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Caixa_relatorio_produto.xaml",
+              "RelativeDocumentMoniker": "Telas\\Caixa_relatorio_produto.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Caixa_relatorio_produto.xaml",
+              "RelativeToolTip": "Telas\\Caixa_relatorio_produto.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:57:23.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Agendamento.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Agendamento.xaml",
+              "RelativeDocumentMoniker": "Telas\\Agendamento.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Agendamento.xaml",
+              "RelativeToolTip": "Telas\\Agendamento.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T18:00:15.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Agenda_Rapida.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Agenda_Rapida.xaml",
+              "RelativeDocumentMoniker": "Telas\\Agenda_Rapida.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Agenda_Rapida.xaml",
+              "RelativeToolTip": "Telas\\Agenda_Rapida.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:47:39.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Consultar_Agenda.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Consultar_Agenda.xaml",
+              "RelativeDocumentMoniker": "Telas\\Consultar_Agenda.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Consultar_Agenda.xaml",
+              "RelativeToolTip": "Telas\\Consultar_Agenda.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:45:23.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsultarCliente.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\ConsultarCliente.xaml",
+              "RelativeDocumentMoniker": "Telas\\ConsultarCliente.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\ConsultarCliente.xaml",
+              "RelativeToolTip": "Telas\\ConsultarCliente.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T18:21:35.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Relatorio_servico.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Relatorio_servico.xaml",
+              "RelativeDocumentMoniker": "Telas\\Relatorio_servico.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Relatorio_servico.xaml",
+              "RelativeToolTip": "Telas\\Relatorio_servico.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T18:31:26.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "popup_agendar.xaml",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\popup_agendar.xaml",
+              "RelativeDocumentMoniker": "Telas\\popup_agendar.xaml",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\popup_agendar.xaml",
+              "RelativeToolTip": "Telas\\popup_agendar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:57:17.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Agendamento.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Agendamento.xaml.cs",
+              "RelativeDocumentMoniker": "Telas\\Agendamento.xaml.cs",
+              "ToolTip": "C:\\Users\\2022102020030\\Documents\\GitHub\\Softbella---Salao-de-Beleza\\Telas\\Agendamento.xaml.cs",
+              "RelativeToolTip": "Telas\\Agendamento.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAawBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:14:27.219Z"
             }
           ]
         }
