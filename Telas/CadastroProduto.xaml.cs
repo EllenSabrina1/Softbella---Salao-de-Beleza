@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ProjetoPDS_SoftBella.Telas
 {
     /// <summary>
-    /// Lógica interna para ConsultarServico.xaml
+    /// Lógica interna para CadastroProduto.xaml
     /// </summary>
-    public partial class ConsultarServico : Window
+    public partial class CadastroProduto : Window
     {
-        public ConsultarServico()
+        public CadastroProduto()
         {
             InitializeComponent();
         }

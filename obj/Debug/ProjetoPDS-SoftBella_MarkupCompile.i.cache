@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\2022102020030\Desktop\Softbella---Salao-de-Beleza\obj\Debug\
+C:\Users\2022102020061\Documents\GitHub\Softbella---Salao-de-Beleza\obj\Debug\
 ProjetoPDS_SoftBella
 none
 false
 DEBUG;TRACE
-C:\Users\2022102020030\Desktop\Softbella---Salao-de-Beleza\App.xaml
-11-436080097
-
-16813979369
+C:\Users\2022102020061\Documents\GitHub\Softbella---Salao-de-Beleza\App.xaml
+121125963442
+31257771310
+47-636593377
 13-1310406943
-MainWindow.xaml;Telas\Agendamento.xaml;Telas\Agenda_Rapida.xaml;Telas\CadastroDeCliente.xaml;Telas\Cadastro_servico.xaml;Telas\Caixa_relatorio_produto.xaml;Telas\ConsultarCliente.xaml;Telas\Consultar_Agenda.xaml;Telas\popup_agendar.xaml;Telas\Relatorio_servico.xaml;Telas\teste.xaml;
+MainWindow.xaml;Telas\Agendamento.xaml;Telas\Agenda_Rapida.xaml;Telas\CadastroDeCliente.xaml;Telas\CadastroProduto.xaml;Telas\Cadastro_servico.xaml;Telas\Caixa_relatorio_produto.xaml;Telas\ConsultarCliente.xaml;Telas\ConsultarUsuario.xaml;Telas\Consultar_Agenda.xaml;Telas\popup_agendar.xaml;Telas\Relatorio_servico.xaml;
 
-True
+False
 
