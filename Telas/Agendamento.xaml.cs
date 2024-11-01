@@ -24,7 +24,7 @@ namespace ProjetoPDS_SoftBella.Telas
             InitializeComponent();
         }
 
-        private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
 
         }

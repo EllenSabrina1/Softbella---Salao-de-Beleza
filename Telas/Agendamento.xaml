@@ -84,7 +84,7 @@
         <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="15">
             <TextBlock Text="Agendamento" Foreground="Gray" Padding="50 10 0 0" FontSize="60" FontFamily="Cooper Black" HorizontalAlignment="Left"/>
             <Button Content="Adicionar" Foreground="White" Background="#737373" FontSize="24" Width="140" Height="60" 
-            HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 -60 10 0" Click="AddButton_Click"/>
+            HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 -60 10 0"/>
 
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="60">
                 <TextBlock Text="Buscar Cliente:" Foreground="Black" VerticalAlignment="Top" FontSize="27" 
@@ -97,7 +97,7 @@
             </StackPanel>
 
             <DataGrid x:Name="dataGrid" Background="#E3D5CA" AutoGenerateColumns="False" FontSize="27" FontFamily="Inria Serif"
-              Width="1220" Height="520" SelectionChanged="dataGrid_SelectionChanged" VerticalAlignment="Center" HorizontalAlignment="Center">
+              Width="1220" Height="520" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="CPF" Binding="{Binding Cpf}" Width="*"/>
                     <DataGridTextColumn Header="Nome" Binding="{Binding Nome}" Width="*"/>
@@ -108,7 +108,7 @@
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20 43 0 0">
                 <Button Content="Salvar" Background="LightGreen" Width="180" FontSize="25" Height="42" Click="SaveButton_Click"/>
-                <Button Content="Cancelar" Background="LightCoral" Width="180" FontSize="25" Height="42" Margin="60 0 0 0" Click="CancelButton_Click"/>
+                <Button Content="Cancelar" Background="LightCoral" Width="180" FontSize="25" Height="42" Margin="60 0 0 0"/>
             </StackPanel>
         </StackPanel>
     </Grid>
