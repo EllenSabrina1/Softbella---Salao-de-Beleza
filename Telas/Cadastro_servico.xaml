@@ -91,12 +91,12 @@
             <!-- Área de Cadastro -->
             <Grid  Background="#E3D5CA" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
                 <Rectangle Fill="#EDEDE9" RadiusX="20" RadiusY="20" Width="1500" Height="1020"
-          HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 32 0 0"  Stroke="#737373" StrokeThickness="2"/>
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 32 0 0"  Stroke="#737373" StrokeThickness="2"/>
                 <TextBlock Text="Cadastrar Serviço" FontSize="44" FontFamily="Cooper Black" Margin="60 60 0 0" Foreground="Gray"></TextBlock>
             </Grid>
 
@@ -108,7 +108,7 @@
                             <TextBlock Text="Código do Serviço" FontSize="30" />
                             <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10">
                                 <TextBox Background="Transparent" BorderBrush="Transparent" FontSize="20" Width="250" Height="50" 
-                    TextWrapping="Wrap" TextAlignment="Center" />
+                                 TextWrapping="Wrap" TextAlignment="Center" />
                             </Border>
                         </StackPanel>
 
@@ -116,7 +116,7 @@
                             <TextBlock Text="Grupo" FontSize="30" />
                             <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10">
                                 <TextBox Text="Cacheado" Background="Transparent" BorderBrush="Transparent" FontSize="25" Foreground="Gray" Width="250" Height="50" 
-                  TextWrapping="Wrap" TextAlignment="Center" />
+                                 TextWrapping="Wrap" TextAlignment="Center" />
                             </Border>
                         </StackPanel>
 
@@ -124,7 +124,7 @@
                             <TextBlock Text="Nome do Serviço" FontSize="30" ></TextBlock>
                             <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10">
                                 <TextBox Text="Hidratação Capilar" Background="Transparent" BorderBrush="Transparent" FontSize="25" Foreground="Gray"
-                              Width="330" Height="50" TextWrapping="Wrap" TextAlignment="Center" />
+                                 Width="330" Height="50" TextWrapping="Wrap" TextAlignment="Center" />
                             </Border>
                         </StackPanel>
 
@@ -182,7 +182,7 @@
                         <TextBlock Text="Produtos Utilizados" Width="374" Margin="0 5 0 0" FontSize="40"/>
                         <TextBlock Text="Buscar Produtos/Estoque" Margin="15 10 180 0" FontSize="27" HorizontalAlignment="Left"/>
                         <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 10 40 0">
-                            <TextBox Width="100" Height="45" Background="Transparent" FontSize="20" Margin="0 0 0 0" BorderBrush="Transparent" TextChanged="TextBox_TextChanged"/>
+                            <TextBox Width="100" Height="45" Background="Transparent" FontSize="20" Margin="0 0 0 0" BorderBrush="Transparent"/>
                         </Border>
 
                         <StackPanel Margin="0 -30 780 0">

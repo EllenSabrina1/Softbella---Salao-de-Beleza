@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\2022102020030\Documents\GitHub\Softbella---Salao-de-Beleza\App.xaml
-10-551971877
+131969006764
 
-15-1042683991
+18-1608974276
 13-1310406943
-MainWindow.xaml;Telas\Agendamento.xaml;Telas\Agenda_Rapida.xaml;Telas\CadastroDeCliente.xaml;Telas\Cadastro_servico.xaml;Telas\Caixa_relatorio_produto.xaml;Telas\ConsultarCliente.xaml;Telas\Consultar_Agenda.xaml;Telas\popup_agendar.xaml;Telas\Relatorio_servico.xaml;
+MainWindow.xaml;Telas\Agendamento.xaml;Telas\Agenda_Rapida.xaml;Telas\CadastroDeCliente.xaml;Telas\CadastroProduto.xaml;Telas\Cadastro_servico.xaml;Telas\Caixa_relatorio_produto.xaml;Telas\ConsultarCliente.xaml;Telas\ConsultarUsuario.xaml;Telas\Consultar_Agenda.xaml;Telas\Consultar_Produto.xaml;Telas\popup_agendar.xaml;Telas\Relatorio_servico.xaml;
 
 True
 

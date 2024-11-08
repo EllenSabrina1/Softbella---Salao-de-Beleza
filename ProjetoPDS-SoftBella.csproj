@@ -64,6 +64,9 @@
     <Compile Include="Telas\CadastroDeCliente.xaml.cs">
       <DependentUpon>CadastroDeCliente.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\CadastroProduto.xaml.cs">
+      <DependentUpon>CadastroProduto.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Cadastro_servico.xaml.cs">
       <DependentUpon>Cadastro_servico.xaml</DependentUpon>
     </Compile>
@@ -73,8 +76,14 @@
     <Compile Include="Telas\ConsultarCliente.xaml.cs">
       <DependentUpon>ConsultarCliente.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\ConsultarUsuario.xaml.cs">
+      <DependentUpon>ConsultarUsuario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Consultar_Agenda.xaml.cs">
       <DependentUpon>Consultar_Agenda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Consultar_Produto.xaml.cs">
+      <DependentUpon>Consultar_Produto.xaml</DependentUpon>
     </Compile>
     <Compile Include="Telas\popup_agendar.xaml.cs">
       <DependentUpon>popup_agendar.xaml</DependentUpon>
@@ -106,6 +115,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Telas\CadastroProduto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Telas\Cadastro_servico.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -118,7 +131,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Telas\ConsultarUsuario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Telas\Consultar_Agenda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Consultar_Produto.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

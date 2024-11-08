@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+
+        <Grid Background="#D5BDAF">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <TextBlock Text="Softbella Beauty Salon" FontSize="24" FontWeight="Bold" Foreground="White" Margin="0,0,0,20"/>
+                <TextBlock Text="E-mail"/>
+                <TextBox x:Name="txtEmail" Margin="0,0,0,10"/>
+                <TextBlock Text="Senha"/>
+                <PasswordBox x:Name="pwdSenha" Margin="0,0,0,20"/>
+                <Button Content="Entrar" Background="#4CAF50" Foreground="White" Width="150" Click="Button_Click"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
