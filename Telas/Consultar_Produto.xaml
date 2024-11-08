@@ -100,19 +100,30 @@
             <TextBlock Text="Consultar Produto" FontSize="44" FontFamily="Cooper Black" Margin="60 60 0 0" Foreground="Gray"></TextBlock>
         </Grid>
 
-        <WrapPanel Grid.Column="1" VerticalAlignment="Top" Margin="40 140 0 0">
-            <TextBlock Text="Buscar: " FontSize="30"></TextBlock>
-            <Border BorderBrush="Black" BorderThickness="1" CornerRadius="8">
-                <TextBox Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Width="320" Height="42" 
-             TextWrapping="Wrap" />
+        <WrapPanel Grid.Column="1" VerticalAlignment="Top" Margin="60 130 0 0">
+               <TextBlock Text="Buscar: " FontSize="30" VerticalAlignment="Center" />
+            <Border BorderBrush="Black" BorderThickness="1" CornerRadius="8" Margin="10 0 0 0">
+                <TextBox Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Width="320" Height="42" TextWrapping="Wrap"/>
             </Border>
-       
+           
         </WrapPanel>
 
+        <WrapPanel Grid.Column="1" VerticalAlignment="Center" Orientation="Horizontal" Margin="60 -90 0 0">
+        
+        <TextBlock Text="Filtro de Busca:" FontWeight="Regular" FontSize="26" />
+            <RadioButton Content="Produto" FontSize="26" Margin="15 0"/>
+            <RadioButton Content="Marca" FontSize="26" Margin="15 0"/>
+            <RadioButton Content="Nome" FontSize="26" Margin="15 0"/>
+        </WrapPanel>
+
+        <!-- Área do resultado da busca -->
+
         <Grid Grid.Column="1" Grid.RowSpan="2">
-            <Border CornerRadius="10" BorderBrush="Black" BorderThickness="1" Width="1200" Height="500" Margin="190 190 0 0">
+            <Border CornerRadius="10" BorderBrush="Black" BorderThickness="1" Width="1300" Height="500" Margin="140 190 0 0">
                     <StackPanel>
 
+                        
+                        
                     </StackPanel>
             </Border>
         </Grid>

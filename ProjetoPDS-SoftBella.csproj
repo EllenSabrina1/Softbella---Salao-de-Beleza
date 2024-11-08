@@ -55,36 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\App.g.cs" />
-    <Compile Include="obj\Debug\App.g.i.cs" />
-    <Compile Include="obj\Debug\MainWindow.g.cs" />
-    <Compile Include="obj\Debug\MainWindow.g.i.cs" />
-    <Compile Include="obj\Debug\ProjetoPDS-SoftBella_Content.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\Agendamento.g.cs" />
-    <Compile Include="obj\Debug\Telas\Agendamento.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\Agenda_Rapida.g.cs" />
-    <Compile Include="obj\Debug\Telas\Agenda_Rapida.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\CadastroDeCliente.g.cs" />
-    <Compile Include="obj\Debug\Telas\CadastroDeCliente.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\CadastroProduto.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\Cadastro_servico.g.cs" />
-    <Compile Include="obj\Debug\Telas\Cadastro_servico.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\Caixa_relatorio_produto.g.cs" />
-    <Compile Include="obj\Debug\Telas\Caixa_relatorio_produto.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\ConsultarCliente.g.cs" />
-    <Compile Include="obj\Debug\Telas\ConsultarCliente.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\ConsultarUsuario.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\Consultar_Agenda.g.cs" />
-    <Compile Include="obj\Debug\Telas\Consultar_Agenda.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\popup_agendar.g.cs" />
-    <Compile Include="obj\Debug\Telas\popup_agendar.g.i.cs" />
-    <Compile Include="obj\Debug\Telas\Relatorio_servico.g.cs" />
-    <Compile Include="obj\Debug\Telas\Relatorio_servico.g.i.cs" />
-    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
-    <Compile Include="obj\Release\App.g.cs" />
-    <Compile Include="obj\Release\MainWindow.g.cs" />
-    <Compile Include="obj\Release\Telas\CadastroDeCliente.g.cs" />
     <Compile Include="Telas\Agendamento.xaml.cs">
       <DependentUpon>Agendamento.xaml</DependentUpon>
     </Compile>
@@ -200,27 +170,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include=".vs\Nova pasta\v17\.wsuo" />
-    <None Include=".vs\Nova pasta\v17\DocumentLayout.json" />
-    <None Include=".vs\ProjectSettings.json" />
-    <None Include=".vs\Projeto SofBella\FileContentIndex\e2c5f233-1b2b-480a-982c-42ae242d77f0.vsidx" />
-    <None Include=".vs\Projeto SofBella\v17\.wsuo" />
-    <None Include=".vs\Projeto SofBella\v17\DocumentLayout.json" />
-    <None Include=".vs\ProjetoPDS-SoftBella.csproj.dtbcache.json" />
-    <None Include=".vs\ProjetoPDS-SoftBella\FileContentIndex\10969332-763b-402f-979e-12c9caa11826.vsidx" />
-    <None Include=".vs\ProjetoPDS-SoftBella\FileContentIndex\5f3090e6-bea3-46b1-9ded-25b4daf24061.vsidx" />
-    <None Include=".vs\ProjetoPDS-SoftBella\FileContentIndex\6dcd84f3-02a3-45a9-a519-a9515e4ea4ab.vsidx" />
-    <None Include=".vs\ProjetoPDS-SoftBella\FileContentIndex\7879aa66-2781-4ca2-af84-be907fe1f56b.vsidx" />
-    <None Include=".vs\ProjetoPDS-SoftBella\FileContentIndex\9057525b-692b-4868-9e5f-d17fd1f4bb4b.vsidx" />
-    <None Include=".vs\ProjetoPDS-SoftBella\v17\DocumentLayout.backup.json" />
-    <None Include=".vs\ProjetoPDS-SoftBella\v17\DocumentLayout.json" />
-    <None Include=".vs\slnx.sqlite" />
-    <None Include=".vs\VSWorkspaceState.json" />
-    <None Include="bin\Debug\ProjetoPDS-SoftBella.exe.config" />
-    <None Include="obj\Release\ProjetoPDS-SoftBella.csproj.AssemblyReference.cache" />
-    <None Include="obj\Release\ProjetoPDS-SoftBella_ef2133o5_wpftmp.csproj.AssemblyReference.cache" />
-    <None Include="obj\Release\ProjetoPDS-SoftBella_MarkupCompile.cache" />
-    <None Include="obj\Release\ProjetoPDS-SoftBella_MarkupCompile.lref" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -230,7 +179,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\Release\" />
     <Folder Include="Recursos\Fontes\" />
   </ItemGroup>
   <ItemGroup>
@@ -269,22 +217,6 @@
   <ItemGroup>
     <Resource Include="Recursos\Imagens\escrever.png" />
     <Resource Include="Recursos\Imagens\lata-de-lixo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Untitled %282%29\Icon agenda.png" />
-    <Resource Include="Untitled %282%29\Icon cadastrar.png" />
-    <Resource Include="Untitled %282%29\Icon caixa.png" />
-    <Resource Include="Untitled %282%29\Icon casa.png" />
-    <Resource Include="Untitled %282%29\Icon consultar.png" />
-    <Resource Include="Untitled %282%29\Icon Ficha.png" />
-    <Resource Include="Untitled %282%29\Icon receber.png" />
-    <Resource Include="Untitled %282%29\Icon Relatorio.png" />
-    <Resource Include="Untitled %282%29\Icon venda.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include=".gitignore" />
-    <Content Include="bin\Debug\ProjetoPDS-SoftBella.exe" />
-    <Content Include="bin\Debug\ProjetoPDS-SoftBella.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
