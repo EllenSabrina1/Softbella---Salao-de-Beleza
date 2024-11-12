@@ -76,6 +76,9 @@
     <Compile Include="Telas\Caixa_relatorio_produto.xaml.cs">
       <DependentUpon>Caixa_relatorio_produto.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\ConsultaFichaAnaminetica.xaml.cs">
+      <DependentUpon>ConsultaFichaAnaminetica.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\ConsultarCliente.xaml.cs">
       <DependentUpon>ConsultarCliente.xaml</DependentUpon>
     </Compile>
@@ -131,6 +134,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Telas\Caixa_relatorio_produto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\ConsultaFichaAnaminetica.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
