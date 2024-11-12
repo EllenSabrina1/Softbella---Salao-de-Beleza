@@ -15,24 +15,13 @@ using System.Windows.Shapes;
 namespace ProjetoPDS_SoftBella.Telas
 {
     /// <summary>
-    /// Lógica interna para Agendamento.xaml
+    /// Lógica interna para CadastroFuncionario.xaml
     /// </summary>
-    public partial class Agendamento : Window
+    public partial class CadastroFuncionario : Window
     {
-        public Agendamento()
+        public CadastroFuncionario()
         {
             InitializeComponent();
-        }
-
-        private void SaveButton_Click(object sender, RoutedEventArgs e)
-        {
-            Agenda_Rapida window = new Agenda_Rapida();
-            window.Show();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

@@ -46,7 +46,7 @@
                     </WrapPanel>
 
                     <WrapPanel Width="274" >
-                        <Button Content="Agenda" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" />
+                        <Button Content="Agenda" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click" />
                         <Image Source="/Recursos/Imagens/Icon agenda.png" Width="25" Margin="15 -98 0 0"/>
                     </WrapPanel>
 
@@ -66,7 +66,7 @@
                     </WrapPanel>
 
                     <WrapPanel Width="274" >
-                        <Button Content="Cadastrar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                        <Button Content="Cadastrar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_1"/>
                         <Image Source="/Recursos/Imagens/Icon cadastrar.png" Width="25" Margin="15 -98 0 0"/>
                     </WrapPanel>
 
@@ -81,7 +81,7 @@
                     </WrapPanel>
 
                     <WrapPanel Width="274" >
-                        <Button Content="Relátório" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                        <Button Content="Relátório" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_2"/>
                         <Image Source="/Recursos/Imagens/Icon relatorio.png" Width="25" Margin="15 -98 0 0"/>
                     </WrapPanel>
                 </StackPanel>
@@ -98,7 +98,10 @@
                 <Rectangle Fill="#EDEDE9" RadiusX="20" RadiusY="20" Width="1500" Height="1020"
                  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 32 0 0"  Stroke="#737373" StrokeThickness="2"/>
                 <TextBlock Text="Cadastrar Serviço" FontSize="44" FontFamily="Cooper Black" Margin="60 60 0 0" Foreground="Gray"></TextBlock>
-            </Grid>
+            
+            
+
+        </Grid>
 
             <Grid Grid.Column="1" Grid.RowSpan="2">
                 <Border CornerRadius="10" BorderBrush="Black" BorderThickness="1" Width="750" Height="850" Margin="50 30 0 0">

@@ -63,6 +63,10 @@
     </Compile>
     <Compile Include="Telas\CadastroDeCliente.xaml.cs">
       <DependentUpon>CadastroDeCliente.xaml</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Telas\CadastroFuncionario.xaml.cs">
+      <DependentUpon>CadastroFuncionario.xaml</DependentUpon>
     </Compile>
     <Compile Include="Telas\CadastroProduto.xaml.cs">
       <DependentUpon>CadastroProduto.xaml</DependentUpon>
@@ -112,6 +116,11 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Telas\CadastroDeCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Telas\CadastroFuncionario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -217,6 +226,9 @@
   <ItemGroup>
     <Resource Include="Recursos\Imagens\escrever.png" />
     <Resource Include="Recursos\Imagens\lata-de-lixo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Imagens\sair.icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

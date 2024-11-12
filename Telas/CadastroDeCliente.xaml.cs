@@ -21,7 +21,18 @@ namespace ProjetoPDS_SoftBella.Telas
     {
         public CadastroDeCliente()
         {
-            InitializeComponent();
+           
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Consultar_Agenda window = new Consultar_Agenda();
+            window.Show();
         }
     }
 }

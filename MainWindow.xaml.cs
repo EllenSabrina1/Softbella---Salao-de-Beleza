@@ -23,12 +23,12 @@ namespace ProjetoPDS_SoftBella
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-             var window = new CadastroDeCliente();
+           Cadastro_servico window = new Cadastro_servico();
             window.Show();
         }
     }

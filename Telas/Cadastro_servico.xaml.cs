@@ -23,5 +23,23 @@ namespace ProjetoPDS_SoftBella.Telas
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Agendamento window = new Agendamento();
+            window.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+          CadastroFuncionario window = new CadastroFuncionario();
+            window.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Relatorio_servico window = new Relatorio_servico();
+            window.Show();
+        }
     }
 }

@@ -1,12 +1,11 @@
-﻿<Window x:Class="ProjetoPDS_SoftBella.Telas.CadastroDeCliente"
+﻿<Window x:Class="ProjetoPDS_SoftBella.Telas.CadastroFuncionario"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjetoPDS_SoftBella.Telas"
         mc:Ignorable="d"
-        Title="CadastroDeCliente" Height="1080" Width="1920"
-        >
+        Title="CadastroFuncionario"  Height="1080" Width="1920" >
 
     <Grid>
         <Grid.RowDefinitions>
@@ -96,7 +95,7 @@
 
             <Rectangle Fill="#EDEDE9" RadiusX="20" RadiusY="20" Width="1500" Height="1022"
                  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 30 0 0"  Stroke="#737373" StrokeThickness="2"/>
-            <TextBlock Text="Cadastrar de Cliente" FontSize="38" FontFamily="Elephant" Margin="60 30 0 0" ></TextBlock>
+            <TextBlock Text="Cadastrar Usuário" FontSize="38" FontFamily="Elephant" Margin="60 30 0 0" ></TextBlock>
         </Grid>
 
         <Grid Grid.Column="1" Grid.RowSpan="2">
@@ -136,14 +135,7 @@
                         <RadioButton Content="Outro" FontSize="28"/>
                     </WrapPanel>
 
-                    <TextBlock Text="Tipo de cabelo:" FontWeight="Bold" FontSize="36" Margin="60 20 0 0" />
-                    <WrapPanel Width="180" Height="230" Margin="0 7 90 0">
 
-                        <RadioButton Content="Liso" FontSize="28" />
-                        <RadioButton Content="Ondulado" FontSize="28"/>
-                        <RadioButton Content="Cacheado" FontSize="28"/>
-                        <RadioButton Content="Crespo" FontSize="28"/>
-                    </WrapPanel>
                 </StackPanel>
             </Border>
 
@@ -224,10 +216,17 @@
                         </Border>
                     </StackPanel>
 
-                    <StackPanel Margin="350 -73 400 0" >
+                    <StackPanel Margin="0 20 780 0" >
                         <TextBlock Text="Cidade:" Width="100" Margin="0 0 100 0" FontSize="24"/>
                         <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0">
                             <TextBox Width="282" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="350 -73 400 0" >
+                        <TextBlock Text="Área de atuação:" Width="178" Margin="0 0 100 0" FontSize="24"/>
+                        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="28 0 0 0">
+                            <TextBox Width="285" Height="95" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20"/>
                         </Border>
                     </StackPanel>
 
@@ -235,6 +234,7 @@
             </Border>
 
         </Grid>
+
 
     </Grid>
 </Window>
