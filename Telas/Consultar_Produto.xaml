@@ -100,34 +100,41 @@
             <TextBlock Text="Consultar Produto" FontSize="44" FontFamily="Cooper Black" Margin="60 60 0 0" Foreground="Gray"></TextBlock>
         </Grid>
 
-        <WrapPanel Grid.Column="1" VerticalAlignment="Top" Margin="60 130 0 0">
-               <TextBlock Text="Buscar: " FontSize="30" VerticalAlignment="Center" />
-            <Border BorderBrush="Black" BorderThickness="1" CornerRadius="8" Margin="10 0 0 0">
-                <TextBox Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Width="320" Height="42" TextWrapping="Wrap"/>
-            </Border>
-           
-        </WrapPanel>
+        <WrapPanel Grid.Column="1" VerticalAlignment="Top" Margin="60 120 0 0">
+            <TextBlock Text="Buscar: " FontSize="29" VerticalAlignment="Center"/>
 
-        <WrapPanel Grid.Column="1" VerticalAlignment="Center" Orientation="Horizontal" Margin="60 -90 0 0">
-        
-        <TextBlock Text="Filtro de Busca:" FontWeight="Regular" FontSize="26" />
-            <RadioButton Content="Produto" FontSize="26" Margin="15 0"/>
-            <RadioButton Content="Marca" FontSize="26" Margin="15 0"/>
-            <RadioButton Content="Nome" FontSize="26" Margin="15 0"/>
+            <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="10 0 0 0">
+                <RadioButton x:Name="rbProduto" Content="Produto" IsChecked="True" FontSize="25" Margin="0,0,10,0"/>
+                <RadioButton x:Name="rbNome" Content="Nome" FontSize="25" Margin="0,0,10,0"/>
+                <RadioButton x:Name="rbMarca" Content="Marca" FontSize="25" />
+            </StackPanel>
+
+            <Border BorderBrush="Black" BorderThickness="1" CornerRadius="8" Margin="10 0 0 0">
+                <TextBox x:Name="txtBusca" Background="Transparent" BorderBrush="Transparent" FontSize="25" Width="530" Height="39"  TextWrapping="Wrap"/>
+            </Border>
+
+            <Button x:Name="btnBuscar" Content="Ok" Width="100" Height="35" Margin="10,0,0,0" FontSize="25" Click="btnBuscar_Click"/>
         </WrapPanel>
 
         <!-- Área do resultado da busca -->
 
-        <Grid Grid.Column="1" Grid.RowSpan="2">
-            <Border CornerRadius="10" BorderBrush="Black" BorderThickness="1" Width="1300" Height="500" Margin="140 190 0 0">
-                    <StackPanel>
+        <Grid Grid.Column="1" Grid.RowSpan="2" Margin="140 300 0 0">
+            <StackPanel>
 
-                        
-                        
-                    </StackPanel>
-            </Border>
+                <DataGrid x:Name="dataGridProduto" Background="#D9D9D9" AutoGenerateColumns="False" FontSize="27" FontFamily="Inria Serif"
+                Width="1200" Height="530" VerticalAlignment="Center" HorizontalAlignment="Center" SelectionChanged="dataGrid_SelectionChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="*"/>
+                        <DataGridTextColumn Header="Produto" Binding="{Binding produto}" Width="*"/>
+                        <DataGridTextColumn Header="Nome" Binding="{Binding Nome}" Width="*"/>
+                        <DataGridTextColumn Header="Marca" Binding="{Binding Marca}" Width="*"/>
+                        <DataGridTextColumn Header="UniMedida" Binding="{Binding UniMedida}" Width="*"/>
+                        <DataGridTextColumn Header="Custo" Binding="{Binding Custo}" Width="*"/>
+                        <DataGridTextColumn Header="Lucro" Binding="{Binding Lucro}" Width="*"/>
+                        <DataGridTextColumn Header="Tempo" Binding="{Binding Tempo}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
         </Grid>
-
-
     </Grid>
 </Window>
