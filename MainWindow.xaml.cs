@@ -31,5 +31,11 @@ namespace ProjetoPDS_SoftBella
            Cadastro_servico window = new Cadastro_servico();
             window.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Cadastro_servico window = new Cadastro_servico();
+            window.Show();
+        }
     }
 }
