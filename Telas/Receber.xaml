@@ -114,7 +114,7 @@
                 <ListBox Width="275" Height="30" Background="Transparent" BorderBrush="Transparent">
                     <ListBoxItem></ListBoxItem>
                     <ListBoxItem></ListBoxItem>
-                    <ListBoxItem></ListBoxItem>
+                    <ListBoxItem Selected="ListBoxItem_Selected"></ListBoxItem>
                 </ListBox>
             </Border>
         </WrapPanel>
@@ -139,7 +139,7 @@
             <TextBlock Text="Produto:" FontWeight="Regular" FontSize="26" />
 
             <Border BorderBrush="Black" BorderThickness="1" CornerRadius="8" Margin="35 0 0 0">
-                <ListBox Width="275" Height="30" Background="Transparent" BorderBrush="Transparent">
+                <ListBox Width="275" Height="36" Background="Transparent" BorderBrush="Transparent">
                     <ListBoxItem></ListBoxItem>
                     <ListBoxItem></ListBoxItem>
                     <ListBoxItem></ListBoxItem>

@@ -110,12 +110,19 @@
                 <Button Content="Salvar" Background="LightGreen" Width="180" FontSize="25" Height="42" Click="SaveButton_Click"/>
                 <Button Content="Cancelar" Background="LightCoral" Width="180" FontSize="25" Height="42" Margin="60 0 0 0"/>
             </StackPanel>
-            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="21 43 0 0">
-                <Button Content="Agenda Rápida" Background="#E3D5CA" Width="190" FontSize="28" Click="SaveButton_Click"></Button>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="300 -19 -1000 10">
+                <Button Content="Agenda Rápida" Background="#E3D5CA" Width="199" FontSize="28" Click="SaveButton_Click"></Button>
+            </StackPanel>
 
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="300 -10 -1000 0">
+                <Button Content="Popup Agendar" Background="#E3D5CA" Width="195" FontSize="28" Click="SaveButton_Click"></Button>
 
             </StackPanel>
 
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="300 12 -970 0">
+                <Button Content="Consultar Agenda" Background="#E3D5CA" Width="250" FontSize="28" Click="SaveButton_Click1"></Button>
+
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>

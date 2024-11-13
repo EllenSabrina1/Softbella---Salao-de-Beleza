@@ -56,12 +56,12 @@
                     </WrapPanel>
 
                     <WrapPanel Width="274" >
-                        <Button Content="Venda" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                        <Button Content="Venda" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_7"/>
                         <Image Source="/Recursos/Imagens/Icon venda.png" Width="25" Margin="15 -98 0 0"/>
                     </WrapPanel>
 
                     <WrapPanel Width="274" >
-                        <Button Content="Receber" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                        <Button Content="Receber" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_4"/>
                         <Image Source="/Recursos/Imagens/Icon receber.png" Width="25" Margin="15 -98 0 0"/>
                     </WrapPanel>
 
@@ -71,12 +71,12 @@
                     </WrapPanel>
 
                     <WrapPanel Width="274" >
-                        <Button Content="Consultar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                        <Button Content="Consultar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_5"/>
                         <Image Source="/Recursos/Imagens/Icon consultar.png" Width="25" Margin="15 -98 0 0"/>
                     </WrapPanel>
 
                     <WrapPanel Width="274" >
-                        <Button Content="Ficha Anamnética" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                        <Button Content="Ficha Anamnética" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_6"/>
                         <Image Source="/Recursos/Imagens/Icon ficha.png" Width="25" Margin="15 -98 0 0"/>
                     </WrapPanel>
 
@@ -95,7 +95,7 @@
                 <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <Rectangle Fill="#EDEDE9" RadiusX="20" RadiusY="20" Width="1500" Height="1020"
+            <Rectangle Fill="#EDEDE9" RadiusX="20" RadiusY="20" Width="1500" Height="1020"
                  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 32 0 0"  Stroke="#737373" StrokeThickness="2"/>
                 <TextBlock Text="Cadastrar Serviço" FontSize="44" FontFamily="Cooper Black" Margin="60 60 0 0" Foreground="Gray"></TextBlock>
             

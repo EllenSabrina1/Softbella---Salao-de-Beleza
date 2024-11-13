@@ -32,7 +32,14 @@ namespace ProjetoPDS_SoftBella.Telas
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            popup_agendar popup_Agendar = new popup_agendar();
+            popup_Agendar.Show();
+        }
 
+        private void SaveButton_Click1(object sender, RoutedEventArgs e)
+        {
+            Consultar_Agenda consultar_Agenda = new Consultar_Agenda();
+            consultar_Agenda.Show();
         }
     }
 }

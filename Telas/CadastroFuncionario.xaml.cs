@@ -23,5 +23,17 @@ namespace ProjetoPDS_SoftBella.Telas
         {
             InitializeComponent();
         }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            CadastroDeCliente cadastroDeCliente = new CadastroDeCliente();
+            cadastroDeCliente.Show();
+        }
+
+        private void SaveButton_Click1(object sender, RoutedEventArgs e)
+        {
+            CadastrarEstoque cadastrarEstoque = new CadastrarEstoque();
+            cadastrarEstoque.Show();
+        }
     }
 }

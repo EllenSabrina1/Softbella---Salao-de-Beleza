@@ -134,12 +134,7 @@
                 </Border>
             </StackPanel>
 
-            <StackPanel Margin="30 -97 -1010 10"  >
-                <TextBlock Text="Produto:" Width="95" Margin="0 0 300 0" FontSize="24"/>
-                <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="0 0 88 0" Width="316" Height="36">
-                    <TextBox Width="257" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
-                </Border>
-            </StackPanel>
+          
                 
             </StackPanel>
 
@@ -213,19 +208,8 @@
                 </Border>
             </StackPanel>
 
-            <StackPanel HorizontalAlignment="Left" Margin="450 -350 20 20" >
-                <TextBlock Text="Lucro:" Width="75" Margin="0 0 330 0" FontSize="24"/>
-                <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="0 0 88 0" Width="316" Height="36">
-                    <TextBox Width="257" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
-                </Border>
-            </StackPanel>
+           
 
-            <StackPanel HorizontalAlignment="Left" Margin="450 -180 20 20" >
-                <TextBlock Text="Lucro:" Width="75" Margin="0 0 330 0" FontSize="24"/>
-                <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="0 0 88 0" Width="316" Height="36">
-                    <TextBox Width="257" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
-                </Border>
-            </StackPanel>
 
 
             <StackPanel>

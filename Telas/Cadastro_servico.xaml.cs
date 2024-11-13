@@ -32,20 +32,44 @@ namespace ProjetoPDS_SoftBella.Telas
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-          CadastroFuncionario window = new CadastroFuncionario();
-            window.Show();
+          CadastroFuncionario cadastroFuncionario = new CadastroFuncionario();
+            cadastroFuncionario.Show();
+
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Relatorio_servico window = new Relatorio_servico();
-            window.Show();
+          Relatorio_servico relatorio_Servico = new Relatorio_servico();
+            relatorio_Servico.Show();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            Caixa window = new Caixa();
-            window.Show();
+            Caixa caixa = new Caixa();
+            caixa.Show();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+           Receber receber = new Receber();
+            receber.Show();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+           ConsultarCliente consultarCliente = new ConsultarCliente();
+            consultarCliente.Show();
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+           ConsultaFichaAnaminetica consultaFichaAnaminetica = new ConsultaFichaAnaminetica();
+            consultaFichaAnaminetica.Show();
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
