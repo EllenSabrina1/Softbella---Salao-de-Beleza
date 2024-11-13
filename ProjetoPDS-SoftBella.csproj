@@ -101,6 +101,9 @@
     <Compile Include="Telas\popup_agendar.xaml.cs">
       <DependentUpon>popup_agendar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\Receber.xaml.cs">
+      <DependentUpon>Receber.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Relatorio_servico.xaml.cs">
       <DependentUpon>Relatorio_servico.xaml</DependentUpon>
     </Compile>
@@ -177,6 +180,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Telas\Receber.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Telas\Relatorio_servico.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -250,6 +257,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Recursos\Imagens\sair.icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Imagens\login.png" />
+    <Resource Include="Recursos\Imagens\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

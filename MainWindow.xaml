@@ -5,18 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjetoPDS_SoftBella"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1080" Width="1920">
     <Grid>
 
-        <Grid Background="#D5BDAF">
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
-                <TextBlock Text="Softbella Beauty Salon" FontSize="24" FontWeight="Bold" Foreground="White" Margin="0,0,0,20"/>
-                <TextBlock Text="E-mail"/>
-                <TextBox  Margin="0,0,0,10"/>
-                <TextBlock Text="Senha"/>
-                <PasswordBox Margin="0,0,0,20"/>
-                <Button Content="Entrar" Background="#4CAF50" Foreground="White" Width="150" Click="Button_Click"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="Recursos/Imagens/login.png"/>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="1" Height="657" Width="530" Background="#4e4745" BorderThickness="2" CornerRadius="30" Padding="10">
+            <StackPanel Grid.Column="1" Height="657" Width="530">
+                <Image Source="Recursos/Imagens/logo.png" Width="271" Height="71"
+                    Margin="0 30 180 0"/>
+                <Label Content="Acesse sua conta" FontSize="24" FontFamily="Plus Jakarta Sans"
+                    FontWeight="Bold" Foreground="#FFC4C4CC" Margin="80 50 0 0"></Label>
+
+                <Label Content="Email" FontSize="14" FontFamily="Plus Jakarta Sans"
+                    Foreground="#C4C4CC" Margin="80 50 0 0"></Label>
+                <Border Background="#121214" BorderThickness="1" CornerRadius="5" Width="400" Height="48">
+                    <TextBox Width="400" Height="48" HorizontalAlignment="Center" Text="Seu Email" Background="#121214"  FontSize="20" Margin="0 0 0 0" 
+                          Foreground="#FF7C7C8A"/>
+                </Border>
+
+                <Label Content="Senha" FontSize="14" FontFamily="Plus Jakarta Sans"
+                     Foreground="#C4C4CC" Margin="80 20 0 0"></Label>
+                <Border Background="#121214" BorderThickness="1" CornerRadius="5" Width="400" Height="48">
+                    <TextBox Width="400" Height="48" HorizontalAlignment="Center" Text="Sua senha" Background="#121214"  FontSize="20" Margin="0 0 0 0" Foreground="#FF7C7C8A"/>
+                </Border>
+
+                <Button Content="Esqueci minha senha" Background="Transparent" Foreground="#D6CCC2"
+                     FontSize="14" FontFamily="Plus Jakarta Sans" BorderBrush="Transparent" Margin="0 8 260 0"/>
+
+                <Border Background="#D6CCC2" BorderThickness="1" CornerRadius="5" Width="400" Height="48" Margin="0 25 0 0">
+                    <Button Content="Entrar" Width="400" Height="48" Background="#D6CCC2"
+                      FontFamily="Plus Jakarta Sans" Foreground="White" FontWeight="Bold" FontSize="16" Click="Button_Click_1"/>
+                </Border>
+
             </StackPanel>
-        </Grid>
+        </Border>
+
     </Grid>
 </Window>
