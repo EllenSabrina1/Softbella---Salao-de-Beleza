@@ -77,6 +77,9 @@
     <Compile Include="Telas\Cadastro_servico.xaml.cs">
       <DependentUpon>Cadastro_servico.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\Caixa.xaml.cs">
+      <DependentUpon>Caixa.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Caixa_relatorio_produto.xaml.cs">
       <DependentUpon>Caixa_relatorio_produto.xaml</DependentUpon>
     </Compile>
@@ -139,6 +142,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Telas\Cadastro_servico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\Caixa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

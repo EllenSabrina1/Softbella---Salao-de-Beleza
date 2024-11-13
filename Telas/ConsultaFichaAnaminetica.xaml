@@ -127,7 +127,7 @@
         <WrapPanel Grid.Column="1">
             <TextBlock Text="Tipos de Cabelos" FontSize="25" Height="82" Margin="130 430 20 20 "/>
             <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="-210 450 88 0" Width="316" Height="36">
-                <ComboBox Width="257" Height="36" Text="" Background="#EDEDE9" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0" SelectionChanged="ComboBox_SelectionChanged" />
+                <ComboBox Width="257" Height="36" Text="" Background="#EDEDE9" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"  />
             </Border>
         </WrapPanel>
 

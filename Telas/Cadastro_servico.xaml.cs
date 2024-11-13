@@ -41,5 +41,11 @@ namespace ProjetoPDS_SoftBella.Telas
             Relatorio_servico window = new Relatorio_servico();
             window.Show();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Caixa window = new Caixa();
+            window.Show();
+        }
     }
 }
