@@ -55,6 +55,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="arquivos\Cliente.cs" />
+    <Compile Include="arquivos\Estoque.cs" />
+    <Compile Include="arquivos\Funcionario.cs" />
+    <Compile Include="arquivos\Produto.cs" />
+    <Compile Include="arquivos\Servico.cs" />
+    <Compile Include="Classes\conexao.cs" />
+    <Compile Include="Classes\DAOHelper.cs" />
     <Compile Include="Telas\Agendamento.xaml.cs">
       <DependentUpon>Agendamento.xaml</DependentUpon>
     </Compile>

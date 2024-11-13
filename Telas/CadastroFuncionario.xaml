@@ -135,10 +135,19 @@
                         <RadioButton Content="Outro" FontSize="28"/>
                     </WrapPanel>
 
+                    <WrapPanel HorizontalAlignment="Center" Margin="0 -10 0 10" >
+                        <Button Content="Cadastar Cliente" Background="#E3D5CA" Width="250" FontSize="28" Click="SaveButton_Click" ></Button>
+                    </WrapPanel>
+
+                    <WrapPanel HorizontalAlignment="Center" Margin="0 -10 0 10" >
+                        <Button Content="Cadastar Estoque" Background="#E3D5CA" Width="250" FontSize="28" Click="SaveButton_Click1" ></Button>
+                    </WrapPanel>
+
+
 
                 </StackPanel>
             </Border>
-
+          
         </Grid>
 
         <Grid Grid.Column="2" Grid.RowSpan="2">
