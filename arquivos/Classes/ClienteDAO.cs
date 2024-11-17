@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoPDS_SoftBella.Classes
+namespace ProjetoPDS_SoftBella.arquivos.Classes
 {
-    internal class DAOHelper
+    internal class ClienteDAO
     {
     }
 }
