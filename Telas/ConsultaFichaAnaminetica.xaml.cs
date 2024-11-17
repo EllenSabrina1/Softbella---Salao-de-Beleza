@@ -21,7 +21,7 @@ namespace ProjetoPDS_SoftBella.Telas
     {
         public ConsultaFichaAnaminetica()
         {
-            InitializeComponent();
+            
         }
     }
 }
