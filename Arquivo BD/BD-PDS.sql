@@ -44,9 +44,9 @@ medida_unidade_pro varchar(300),
 nome_fornecedor_pro varchar(300),
 contato_fornecedor_pro varchar(300),
 cidade_pro varchar (300),
-custo_pro varchar(300),
-preco_venda_pro varchar(300),
-lucro_pro varchar(300)
+custo_pro int,
+preco_venda_pro double,
+lucro_pro int
 );
 
 create table Estoque(
@@ -57,11 +57,13 @@ grupo_est varchar(300),
 produto_est varchar(300),
 quantidade_est varchar(300),
 fracionar_est varchar(300),
-custo_est varchar(300),
-lucro_est varchar(300),
+custo_est double,
+lucro_est int,
 fornecedor_est varchar(300),
 contato_fornecedor_est varchar(300),
-email_fornecedor varchar(300)
+email_fornecedor varchar(300),
+id_pro_fk int,
+FOREIGN KEY (id_pro_fk) REFERENCES Produto(id_pro)
 );
 
 create table Servico(
@@ -72,7 +74,9 @@ tempo_necessario_ser varchar(300),
 profissional_ser varchar(300),
 valor_vista_ser varchar(300),
 valor_prazo_ser varchar(300),
-produtos_utilizados_ser varchar(300)
+produtos_utilizados_ser varchar(300),
+id_fun_fk int,
+FOREIGN KEY (id_fun_fk) REFERENCES Funcionario(id_fun)
 );
 
 

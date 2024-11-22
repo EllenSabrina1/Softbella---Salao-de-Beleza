@@ -324,5 +324,8 @@
     <Resource Include="Recursos\Imagens\login.png" />
     <Resource Include="Recursos\Imagens\logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Arquivo BD\BD-PDS.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

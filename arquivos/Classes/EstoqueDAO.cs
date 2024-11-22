@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoPDS_SoftBella.arquivos
+namespace ProjetoPDS_SoftBella.arquivos.Classes
 {
-    internal class Cliente
+    internal class EstoqueDAO
     {
     }
 }
