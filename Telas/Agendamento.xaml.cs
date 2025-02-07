@@ -41,5 +41,10 @@ namespace ProjetoPDS_SoftBella.Telas
             Consultar_Agenda consultar_Agenda = new Consultar_Agenda();
             consultar_Agenda.Show();
         }
+
+        private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

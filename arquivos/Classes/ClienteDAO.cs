@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
 
-namespace ProjetoPDS_SoftBella.Arquivos.Classes
+namespace ProjetoPDS_SoftBella.arquivos.Classes
 {
     class ClienteDAO
     {

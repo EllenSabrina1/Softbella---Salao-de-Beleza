@@ -9,7 +9,7 @@ using System.Data;
 using System.Data.SqlClient;
 
 
-namespace ProjetoPDS_SoftBella.Classes.Meu.Arquivos.Classes
+namespace ProjetoPDS_SoftBella.arquivos
 {
     class Conexao
     {

@@ -23,5 +23,14 @@ namespace ProjetoPDS_SoftBella.Telas
         {
             InitializeComponent();
         }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+           Caixa caixa = new Caixa();
+           this.Close();
+
+        }
     }
+
+   
 }
