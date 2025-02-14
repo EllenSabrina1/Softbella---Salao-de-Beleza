@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetoPDS_SoftBella.arquivos.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,5 +24,41 @@ namespace ProjetoPDS_SoftBella.Telas
         {
             InitializeComponent();
         }
+
+        private PopUpAgendar procedimento_ = new PopUpAgendar();
+        private PopUpAgendarDAO procedimentoDAO_ = new PopUpAgendarDAO(); // Objeto responsável por acessar o banco de dados
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                procedimento_.dia = DateTime.Parse(dt_dia.Text);
+                procedimento_.retorno = DateTime.Parse(dt_retorno.Text);
+                procedimento_.servico = cb_servico.Text;
+                procedimento_.horario = Convert.ToInt32(txt_horario.Text);
+                procedimento_.profissional = cb_profissional.Text;
+                procedimento_.tempo = Convert.ToInt32(txt_tempo.Text);
+                procedimento_.observacoes = txt_obs.Text;
+
+                procedimentoDAO_.Insert(procedimento_); // Insere no banco
+                MessageBox.Show("Usuario cadastrado com sucesso.");
+
+                MainWindow inicioc = new MainWindow();
+                inicioc.Show(); 
+                this.Close(); // Fecha a janela atual
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao salvar dados: {ex.Message}");
+            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+            this.Close();
+
+        }
+
     }
 }

@@ -109,6 +109,8 @@
     </ApplicationDefinition>
     <Compile Include="arquivos\Classes\Cliente.cs" />
     <Compile Include="arquivos\Classes\ClienteDAO.cs" />
+    <Compile Include="arquivos\Classes\PopUpAgendar.cs" />
+    <Compile Include="arquivos\Classes\PopUpAgendarDAO.cs" />
     <Compile Include="arquivos\Cliente.cs" />
     <Compile Include="arquivos\Conexao.cs" />
     <Compile Include="arquivos\DAOHelper.cs" />

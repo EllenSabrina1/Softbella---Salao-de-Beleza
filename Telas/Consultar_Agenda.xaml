@@ -105,155 +105,28 @@
                 <RadioButton Content="CPF" FontSize="25" Margin="400 -800 0 0"/>
                 <RadioButton Content="Email" FontSize="25" Margin="500 -800 0 0"/>
                 <RadioButton Content="Celular" FontSize="25" Margin="600 -800 0 0"/>
-
-                <StackPanel>
-
-                    <Border Height="700"  Background="#D9D9D9" Margin=" 70 -740 70 60"></Border>
-                    <TextBlock Text="CPF" FontSize="25" Margin="250 -735 100 800" FontFamily="Arial" FontWeight="Bold"></TextBlock>
-                    <TextBlock Text="Nome" FontSize="25" Margin="480 -830 200 800" FontFamily="Arial" FontWeight="Bold"></TextBlock>
-                    <TextBlock Text="E-mail" FontSize="25" Margin="790 -830 200 800" FontFamily="Arial" FontWeight="Bold"></TextBlock>
-                    <TextBlock Text="Celular" FontSize="25" Margin="1100 -830 200 800" FontFamily="Arial" FontWeight="Bold"></TextBlock>
-                    <TextBlock Text="Ações" FontSize="25" Margin="1330 -830 90 800" FontFamily="Arial" FontWeight="Bold"></TextBlock>
-
-                    <StackPanel>
-                        <Border Height="190" Width="1300" Background="White" Margin=" 90 -1315 0 60"></Border>
-                        <TextBlock Text="123.456.789-10" FontSize="22" FontFamily="Arial" Margin="199 -770 50 50" />
-                        <TextBlock Text="Bianca Eshiley Abreu Torres" FontSize="22" FontFamily="Arial" Margin="400 -770 50 50" />
-                        <TextBlock Text="KimHaerin@gmail.com " FontSize="22" FontFamily="Arial" Margin="770 -770 50 50" />
-                        <TextBlock Text="69 9 7488-7482" FontSize="22" FontFamily="Arial" Margin="1080 -770 50 50" />
-
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="185" Height="105" Margin="-1000 -1350 0 0"  Stroke="#737373" StrokeThickness="2"/>
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="370" Height="105" Margin="-430 -1350 0 0"  Stroke="#737373" StrokeThickness="2"/>
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="290" Height="105" Margin="250 -1350 0 0"  Stroke="#737373" StrokeThickness="2"/>
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="400" Height="105" Margin="960 -1350 0 0"  Stroke="#737373" StrokeThickness="2"/>
-
-                        <TextBlock Text="Agendamentos:" Margin="200 -720 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-                        <TextBlock Text="Procedimento agendado:" Margin="400 -720 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-                        <TextBlock Text="Previsão de volta:" Margin="780 -720 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-                        <TextBlock Text="Ultimo procedimento:" Margin="1080 -720 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-
-                        <Border Height="40" Width="150" Background="#E3D5CA" Margin="-990 -1320 10 0"></Border>
-                        <Border Height="40" Width="350" Background="#E3D5CA" Margin="-420 -1320 10 0"></Border>
-                        <Border Height="40" Width="220" Background="#E3D5CA" Margin="230 -1320 10 0"></Border>
-                        <Border Height="40" Width="280" Background="#E3D5CA" Margin="890 -1320 10 0"></Border>
-
-                        <TextBlock Text="01/08 - 10:00" FontFamily="Arial" FontSize="20" Margin="220 -670 0 0 " ></TextBlock>
-                        <TextBlock Text="Hidratação capilar" FontFamily="Arial" FontSize="20" Margin="400 -670 0 0 " ></TextBlock>
-                        <TextBlock Text="27/08/2024" FontFamily="Arial" FontSize="20" Margin="800 -670 0 0 " ></TextBlock>
-                        <TextBlock Text="Alisamento" FontFamily="Arial" FontSize="20" Margin="1100 -670 0 0 " ></TextBlock>
-                    </StackPanel>
-
-                    <StackPanel>
-
-                        <Border Height="190" Width="1300" Background="White" Margin=" 90 -900 0 60"></Border>
-                        <TextBlock Text="123.456.789-10" FontSize="22" FontFamily="Arial" Margin="199 -560 50 50" />
-                        <TextBlock Text="Bianca Eshiley Abreu Torres" FontSize="22" FontFamily="Arial" Margin="400 -560 50 50" />
-                        <TextBlock Text="KimHaerin@gmail.com " FontSize="22" FontFamily="Arial" Margin="770 -560 50 50" />
-                        <TextBlock Text="69 9 7488-7482" FontSize="22" FontFamily="Arial" Margin="1080 -560 50 50" />
-
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="185" Height="105" Margin="-1000 -920 0 0"  Stroke="#737373" StrokeThickness="2"/>
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="370" Height="105" Margin="-430 -920 0 0"  Stroke="#737373" StrokeThickness="2"/>
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="290" Height="105" Margin="250 -920 0 0"  Stroke="#737373" StrokeThickness="2"/>
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="400" Height="105" Margin="960 -920 0 0"  Stroke="#737373" StrokeThickness="2"/>
-
-                        <TextBlock Text="Agendamentos:" Margin="200 -505 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-                        <TextBlock Text="Procedimento agendado:" Margin="400 -505 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-                        <TextBlock Text="Previsão de volta:" Margin="780 -505 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-                        <TextBlock Text="Ultimo procedimento:" Margin="1080 -505 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-
-                        <Border Height="40" Width="150" Background="#E3D5CA" Margin="-990 -900 10 0"></Border>
-                        <Border Height="40" Width="350" Background="#E3D5CA" Margin="-420 -900 10 0"></Border>
-                        <Border Height="40" Width="220" Background="#E3D5CA" Margin="230 -900 10 0"></Border>
-                        <Border Height="40" Width="280" Background="#E3D5CA" Margin="890 -900 10 0"></Border>
-
-                        <TextBlock Text="01/08 - 10:00" FontFamily="Arial" FontSize="20" Margin="220 -460 0 0 " ></TextBlock>
-                        <TextBlock Text="Hidratação capilar" FontFamily="Arial" FontSize="20" Margin="400 -460 0 0 " ></TextBlock>
-                        <TextBlock Text="27/08/2024" FontFamily="Arial" FontSize="20" Margin="800 -460 0 0 " ></TextBlock>
-                        <TextBlock Text="Alisamento" FontFamily="Arial" FontSize="20" Margin="1100 -460 0 0 " ></TextBlock>
-
-                    </StackPanel>
-
-                    <StackPanel>
-                        <Border Height="190" Width="1300" Background="White" Margin=" 90 -480 0 60"></Border>
-                        <TextBlock Text="123.456.789-10" FontSize="22" FontFamily="Arial" Margin="199 -350 50 50" />
-                        <TextBlock Text="Bianca Eshiley Abreu Torres" FontSize="22" FontFamily="Arial" Margin="400 -350 50 50" />
-                        <TextBlock Text="KimHaerin@gmail.com " FontSize="22" FontFamily="Arial" Margin="770 -350 50 50" />
-                        <TextBlock Text="69 9 7488-7482" FontSize="22" FontFamily="Arial" Margin="1080 -350 50 50" />
-
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="185" Height="105" Margin="-1000 -500 0 0"  Stroke="#737373" StrokeThickness="2"/>
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="370" Height="105" Margin="-430 -500 0 0"  Stroke="#737373" StrokeThickness="2"/>
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="290" Height="105" Margin="250 -500 0 0"  Stroke="#737373" StrokeThickness="2"/>
-                        <Rectangle Fill="White" RadiusX="20" RadiusY="20" Width="400" Height="105" Margin="960 -500 0 0"  Stroke="#737373" StrokeThickness="2"/>
-
-                        <TextBlock Text="Agendamentos:" Margin="200 -295 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-                        <TextBlock Text="Procedimento agendado:" Margin="400 -295 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-                        <TextBlock Text="Previsão de volta:" Margin="780 -295 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-                        <TextBlock Text="Ultimo procedimento:" Margin="1080 -295 10 0" FontSize="19" FontFamily="Arial"></TextBlock>
-
-                        <Border Height="40" Width="150" Background="#E3D5CA" Margin="-990 -480 10 0"></Border>
-                        <Border Height="40" Width="350" Background="#E3D5CA" Margin="-420 -480 10 0"></Border>
-                        <Border Height="40" Width="220" Background="#E3D5CA" Margin="230 -480 10 0"></Border>
-                        <Border Height="40" Width="280" Background="#E3D5CA" Margin="890 -480 10 0"></Border>
-
-                        <TextBlock Text="01/08 - 10:00" FontFamily="Arial" FontSize="20" Margin="220 -250 0 0 " ></TextBlock>
-                        <TextBlock Text="Hidratação capilar" FontFamily="Arial" FontSize="20" Margin="400 -250 0 0 " ></TextBlock>
-                        <TextBlock Text="27/08/2024" FontFamily="Arial" FontSize="20" Margin="800 -250 0 0 " ></TextBlock>
-                        <TextBlock Text="Alisamento" FontFamily="Arial" FontSize="20" Margin="1100 -250 0 0 " ></TextBlock>
-
-                        <Image Source="/Recursos/Imagens/lupa-arredondada.png" Width="55" Height="43" Margin="1400 -2100 10 10"></Image>
-                        <Image Source="/Recursos/Imagens/mais.png" Width="40" Height="50" Margin="1250 -2100 10 10"></Image>
-                    </StackPanel>
-
-
-
-                    <StackPanel Margin="1240 -780 160 730">
-                        <Image Source="/Recursos/Imagens/olho.png" Width="25" Height="40"></Image>
-                    </StackPanel>
-
-                    <StackPanel Margin="1300 -780 25 733">
-                        <Image Source="/Recursos/Imagens/lata-de-lixo.png" Width="25" Height="40"></Image>
-                    </StackPanel>
-
-                    <StackPanel Margin="1200 -780 25 733">
-                        <Image Source="/Recursos/Imagens/escrever.png" Width="25" Height="40"></Image>
-                    </StackPanel>
-
-
-
-                    <StackPanel Margin="1240 -565 160 955">
-                        <Image Source="/Recursos/Imagens/olho.png" Width="25" Height="40"></Image>
-                    </StackPanel>
-
-                    <StackPanel Margin="1300 -995 25 733">
-                        <Image Source="/Recursos/Imagens/lata-de-lixo.png" Width="25" Height="40"></Image>
-                    </StackPanel>
-
-                    <StackPanel Margin="1200 -995 25 733">
-                        <Image Source="/Recursos/Imagens/escrever.png" Width="25" Height="40"></Image>
-                    </StackPanel>
-
-
-                    <StackPanel Margin="1240 -780 160 730">
-                        <Image Source="/Recursos/Imagens/olho.png" Width="25" Height="40"></Image>
-                    </StackPanel>
-
-                    <StackPanel Margin="1300 -780 25 733">
-                        <Image Source="/Recursos/Imagens/lata-de-lixo.png" Width="25" Height="40"></Image>
-                    </StackPanel>
-
-                    <StackPanel Margin="1200 -780 25 733">
-                        <Image Source="/Recursos/Imagens/escrever.png" Width="25" Height="40"></Image>
-                    </StackPanel>
-
-                    <Image Source="/Recursos/Imagens/Jenna.jpg" Width="70" Height="70" Margin="-1000 -2200 320 20" ></Image>
-                    <Image Source="/Recursos/Imagens/Jenna.jpg" Width="70" Height="70" Margin="-1000 -2200 320 -420" ></Image>
-                    <Image Source="/Recursos/Imagens/Jenna.jpg" Width="70" Height="70" Margin="-1000 -2200 320 -850" ></Image>
-
-                </StackPanel>
-
-
-
             </StackPanel>
+
+            <DockPanel Margin="10 300 10 10" Width="1100" Height="500">
+                    <TextBox DockPanel.Dock="Top" Margin="0,0,0,10" />
+                    <DataGrid Name="Agendamentos" ItemsSource="{Binding}" SelectionChanged="Agendamentos_SelectionChanged" AutoGenerateColumns="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
+                        <DataGrid.Columns>
+
+
+                            <DataGridTextColumn Header="ID" Width="40" Binding="{Binding id}" />
+                            <DataGridTextColumn Header="Dia" Width="150" Binding="{Binding dia, StringFormat='dd/MM/yyyy'}" />
+                            <DataGridTextColumn Header="Retorno" Width="150" Binding="{Binding retorno, StringFormat='dd/MM/yyyy'}" />
+                            <DataGridTextColumn Header="Serviço" Width="150" Binding="{Binding servico}" />
+                            <DataGridTextColumn Header="Horário" Width="130" Binding="{Binding horario, StringFormat='hh\\:mm'}" />
+                            <DataGridTextColumn Header="Profissional" Width="150" Binding="{Binding profissional}" />
+
+                            <DataGridTextColumn Header="Tempo" Width="100" Binding="{Binding tempo, StringFormat='hh\\:mm'}" />
+                            <DataGridTextColumn Header="Observações" Width="300" Binding="{Binding observacoes}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </DockPanel>
+            
 
 
         </Grid>

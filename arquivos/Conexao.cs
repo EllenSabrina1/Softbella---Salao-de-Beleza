@@ -19,7 +19,7 @@ namespace ProjetoPDS_SoftBella.arquivos
 
         private static string user = "root";
 
-        private static string password = "root";
+        private static string password = "15183029**Sasa";
 
         private static string dbname = "Cadastro_PDS";
 

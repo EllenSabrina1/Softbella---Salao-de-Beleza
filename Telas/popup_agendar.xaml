@@ -22,8 +22,10 @@
                         <TextBox Width="280" Height="38" Text="Digite o nome do produto" Background="White" FontSize="20" Margin="0 0 0 0" BorderBrush="Transparent"/>
                     </Border>
                 </StackPanel>
-                <Image Source="/Recursos/Imagens/e62cdd1a-7899-4fcc-ad0b-ffe4b80ca522 1.png" Width="50" Margin="430 350 0 0"/>
-                <Image Source="/Recursos/Imagens/Group 14.png" Width="50" Margin="450 -965 0 0" />
+                <Button Content="Salvar"  Width="100" Margin="130 380 0 0" Click="Button_Click"/>
+                <Button Content="Sair"  Width="100" Margin="350 -20 0 0" Click="Button_Click_1"/>
+                <!--<Image Source="/Recursos/Imagens/e62cdd1a-7899-4fcc-ad0b-ffe4b80ca522 1.png" Width="50" Margin="430 350 0 0"/>
+            <Image Source="/Recursos/Imagens/Group 14.png" Width="50" Margin="450 -965 0 0" />-->
             </StackPanel>
 
 
@@ -35,7 +37,7 @@
                 <StackPanel Margin="0 20 580 0" Width="250">
                     <TextBlock Text="Dia agendado" Width="170" Margin="0 0 0 0" FontSize="24"/>
                     <Border BorderBrush="White" BorderThickness="1" CornerRadius="10" Margin="0 0 0 0" Width="180" Height="35">
-                        <DatePicker Background="White" Height="35" BorderBrush="Transparent"></DatePicker>
+                        <DatePicker x:Name="dt_dia" Background="White" Height="35" BorderBrush="Transparent" Margin="0,0,0,-2" VerticalAlignment="Bottom"></DatePicker>
                     </Border>
                 </StackPanel>
 
@@ -44,14 +46,14 @@
             <StackPanel Margin="0 275 0 0" Width="250">
                 <TextBlock Text="Dia retorno" Width="170" Margin="0 0 0 0" FontSize="24"/>
                 <Border BorderBrush="White" BorderThickness="1" CornerRadius="10" Margin="0 0 0 0" Width="180" Height="35">
-                    <DatePicker Background="White" Height="35" BorderBrush="Transparent"></DatePicker>
+                    <DatePicker x:Name="dt_retorno" Background="White" Height="35" BorderBrush="Transparent"></DatePicker>
                 </Border>
             </StackPanel>
 
             <StackPanel Margin="580 275 0 0" Width="250">
                 <TextBlock Text="Serviço" Width="170" Margin="0 0 0 0" FontSize="24"/>
                 <Border BorderBrush="White" BorderThickness="1" CornerRadius="10" Margin="0 0 0 0" Width="180" Height="35">
-                    <ComboBox >
+                    <ComboBox x:Name="cb_servico" >
                         <ComboBoxItem Content="Corte de cabelo"/>
                         <ComboBoxItem Content="Tratamento capilar"/>
                         <ComboBoxItem Content="Coloração"/>
@@ -60,26 +62,26 @@
                 </Border>
             </StackPanel>
 
-            <StackPanel Margin="0 390 580 0" Width="250">
-                <TextBlock Text="Horário" Width="170" Margin="0 0 0 0" FontSize="24"/>
+            <StackPanel  Margin="0 390 580 0" Width="250">
+                <TextBlock Text="Horário" Width="170" Margin="0 0 0 0" FontSize="24" />
                 <Border BorderBrush="White" BorderThickness="1" CornerRadius="10" Margin="0 0 0 0" Width="180" Height="35">
-                    <TextBox BorderBrush="Transparent"></TextBox>
+                    <TextBox BorderBrush="Transparent" x:Name="txt_horario" ></TextBox>
                 </Border>
             </StackPanel>
 
 
 
-            <StackPanel Margin="0 390 0 0" Width="250">
+            <StackPanel  Margin="0 390 0 0" Width="250">
                 <TextBlock Text="Tempo" Width="170" Margin="0 0 0 0" FontSize="24"/>
                 <Border BorderBrush="White" BorderThickness="1" CornerRadius="10" Margin="0 0 0 0" Width="180" Height="35">
-                    <TextBox BorderBrush="Transparent"></TextBox>
+                    <TextBox BorderBrush="Transparent" x:Name="txt_tempo" ></TextBox>
                 </Border>
             </StackPanel>
 
             <StackPanel Margin="580 390 0 0" Width="250">
                 <TextBlock Text="Profissional" Width="170" Margin="0 0 0 0" FontSize="24"/>
                 <Border BorderBrush="White" BorderThickness="1" CornerRadius="10" Margin="0 0 0 0" Width="180" Height="35">
-                    <ComboBox BorderBrush="Transparent">
+                    <ComboBox x:Name="cb_profissional" BorderBrush="Transparent">
                         <ComboBoxItem Content="Anna Flávya"/>
                         <ComboBoxItem Content="Emilly Santana"/>
                         <ComboBoxItem Content="Iannay"/>
@@ -91,7 +93,7 @@
             <StackPanel Margin="0 590 0 0" Width="850">
                 <TextBlock Text="Observações:" Width="170" Margin="0 0 650 0" FontSize="24"/>
                 <Border BorderBrush="White" BorderThickness="1" CornerRadius="10" Margin="0 0 0 0" Width="830" Height="100">
-                    <TextBox Width="850" Height="100" BorderBrush="Transparent"></TextBox>
+                    <TextBox x:Name="txt_obs" Width="850" Height="100" BorderBrush="Transparent"></TextBox>
                 </Border>
             </StackPanel>
 
