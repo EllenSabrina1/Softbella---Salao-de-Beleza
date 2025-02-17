@@ -28,8 +28,8 @@ namespace ProjetoPDS_SoftBella.Telas
 
         private void Carregaragenda()
         {
-            PopUpAgendarDAO dao = new PopUpAgendarDAO();
-            List<PopUpAgendar> agendas = dao.GetPop();
+            PopUpAgendarDAO Dao = new PopUpAgendarDAO();
+            List<PopUpAgendar> agendas = Dao.GetPop();
 
             Agendamentos.ItemsSource = agendas;
 
@@ -81,6 +81,14 @@ namespace ProjetoPDS_SoftBella.Telas
 
     private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Consultar_Agenda consultar_Agenda = new Consultar_Agenda();
+            consultar_Agenda.Show();
+            this.Close();
 
         }
     }

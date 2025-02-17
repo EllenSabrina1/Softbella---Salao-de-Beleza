@@ -15,13 +15,13 @@ namespace ProjetoPDS_SoftBella.arquivos
     {
         private static string host = "localhost";
 
-        private static string port = "3306";
+        private static string port = "3360";
 
         private static string user = "root";
 
-        private static string password = "15183029**Sasa";
+        private static string password = "root";
 
-        private static string dbname = "Cadastro_PDS";
+        private static string dbname = "softBella_pds_bd";
 
         private static MySqlConnection connection;
 
@@ -33,11 +33,13 @@ namespace ProjetoPDS_SoftBella.arquivos
             {
                 connection = new MySqlConnection($"server={host};database={dbname};port={port};user={user};password={password}");
                 connection.Open();
+                Console.WriteLine("Conexão bem sucedida!");
 
             }
             catch (Exception ex)
             {
                 throw ex;
+               
             }
         }
 

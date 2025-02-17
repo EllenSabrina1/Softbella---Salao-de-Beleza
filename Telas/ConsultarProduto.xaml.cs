@@ -23,5 +23,12 @@ namespace ProjetoPDS_SoftBella.Telas
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Consultar_Agenda consultar_Agenda = new Consultar_Agenda();
+            consultar_Agenda.Show();
+            this.Close();
+        }
     }
 }

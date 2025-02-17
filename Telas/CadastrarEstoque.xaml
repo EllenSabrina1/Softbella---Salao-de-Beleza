@@ -47,7 +47,7 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Agenda" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" />
+                    <Button Content="Agenda" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click" />
                     <Image Source="/Recursos/Imagens/Icon agenda.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 

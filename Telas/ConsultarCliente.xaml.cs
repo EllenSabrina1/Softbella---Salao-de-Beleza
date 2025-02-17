@@ -23,5 +23,11 @@ namespace ProjetoPDS_SoftBella.Telas
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+
+        }
     }
 }

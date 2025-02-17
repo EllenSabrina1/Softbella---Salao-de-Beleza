@@ -50,11 +50,20 @@
     <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
       <HintPath>packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data, Version=9.2.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>packages\MySql.Data.9.2.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlConnector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92, processorArchitecture=MSIL">
+      <HintPath>packages\MySqlConnector.2.4.0\lib\net471\MySqlConnector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -107,17 +116,40 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="arquivos\Classes\Agendamento.cs" />
+    <Compile Include="arquivos\Classes\AgendamentoDAO.cs" />
+    <Compile Include="arquivos\Classes\Agenda_Rapida.cs" />
+    <Compile Include="arquivos\Classes\Agenda_RapidaDAO.cs" />
+    <Compile Include="arquivos\Classes\Caixa.cs" />
+    <Compile Include="arquivos\Classes\CaixaDAO.cs" />
+    <Compile Include="arquivos\Classes\Caixa_relatorio_produto.cs" />
+    <Compile Include="arquivos\Classes\Caixa_relatorio_produtoDAO.cs" />
     <Compile Include="arquivos\Classes\Cliente.cs" />
     <Compile Include="arquivos\Classes\ClienteDAO.cs" />
+    <Compile Include="arquivos\Classes\ConsultaFichaAnamineticaDAO.cs" />
+    <Compile Include="arquivos\Classes\ConsultarCliente.cs" />
+    <Compile Include="arquivos\Classes\ConsultarClienteDAO.cs" />
+    <Compile Include="arquivos\Classes\ConsultarFichaAnaminetica.cs" />
+    <Compile Include="arquivos\Classes\ConsultarProduto.cs" />
+    <Compile Include="arquivos\Classes\ConsultarProdutoDAO.cs" />
+    <Compile Include="arquivos\Classes\Consultar_agenda.cs" />
+    <Compile Include="arquivos\Classes\Consultar_agendaDAO.cs" />
+    <Compile Include="arquivos\Classes\Estoque.cs" />
+    <Compile Include="arquivos\Classes\EstoqueDAO.cs" />
+    <Compile Include="arquivos\Classes\Funcionario.cs" />
+    <Compile Include="arquivos\Classes\FuncionarioDAO.cs" />
     <Compile Include="arquivos\Classes\PopUpAgendar.cs" />
     <Compile Include="arquivos\Classes\PopUpAgendarDAO.cs" />
-    <Compile Include="arquivos\Cliente.cs" />
+    <Compile Include="arquivos\Classes\Produto.cs" />
+    <Compile Include="arquivos\Classes\ProdutoDAO.cs" />
+    <Compile Include="arquivos\Classes\Receber.cs" />
+    <Compile Include="arquivos\Classes\ReceberDAO.cs" />
+    <Compile Include="arquivos\Classes\Relatorio_servico.cs" />
+    <Compile Include="arquivos\Classes\Relatorio_servicoDAO.cs" />
+    <Compile Include="arquivos\Classes\Servico.cs" />
+    <Compile Include="arquivos\Classes\ServicoDAO.cs" />
     <Compile Include="arquivos\Conexao.cs" />
     <Compile Include="arquivos\DAOHelper.cs" />
-    <Compile Include="arquivos\Estoque.cs" />
-    <Compile Include="arquivos\Funcionario.cs" />
-    <Compile Include="arquivos\Produto.cs" />
-    <Compile Include="arquivos\Servico.cs" />
     <Compile Include="Telas\Agendamento.xaml.cs">
       <DependentUpon>Agendamento.xaml</DependentUpon>
     </Compile>
@@ -320,7 +352,7 @@
     <Resource Include="Recursos\Imagens\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Arquivo BD\BD-PDS.sql" />
+    <Content Include="Arquivo BD\softbella_pds_bd.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

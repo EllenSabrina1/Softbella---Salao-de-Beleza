@@ -29,5 +29,10 @@ namespace ProjetoPDS_SoftBella.Telas
             Caixa_relatorio_produto window = new Caixa_relatorio_produto();
             window.Show();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
