@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
+
 namespace ProjetoPDS_SoftBella.arquivos.Classes
 {
     public class PopUpAgendarDAO
@@ -22,14 +23,14 @@ namespace ProjetoPDS_SoftBella.arquivos.Classes
                 comando.Parameters.AddWithValue("@dia", obj.dia);
                 comando.Parameters.AddWithValue("@retorno", obj.retorno);
                 comando.Parameters.AddWithValue("@servico", obj.servico);
-                comando.Parameters.AddWithValue("@horario", obj.horario);
-                comando.Parameters.AddWithValue("@tempo", obj.tempo);
+                comando.Parameters.AddWithValue("@horario", obj.horario); 
+                comando.Parameters.AddWithValue("@tempo", obj.tempo); //
                 comando.Parameters.AddWithValue("@profissional", obj.profissional);
                 comando.Parameters.AddWithValue("@observacoes", obj.observacoes);
 
 
                 var resultado = comando.ExecuteNonQuery();
-
+                //
                 if (resultado == 0)
                 {
                     throw new Exception("Ocorreram erros ao salvar as informações");
@@ -62,7 +63,7 @@ namespace ProjetoPDS_SoftBella.arquivos.Classes
                         retorno = reader.GetDateTime("retorno_pop"),
                         servico = reader.GetString("serviço_pop"),
                         horario = reader.GetInt32("hora_pop"),
-                        tempo = reader.GetInt32("tempo_pop"),
+                        tempo = reader.GetInt32("tempo_pop"), // Corrigido o parêntese
                         profissional = reader.GetString("profissional_pop"),
                         observacoes = reader.GetString("observacoes_pop")
                     };
@@ -73,7 +74,8 @@ namespace ProjetoPDS_SoftBella.arquivos.Classes
             }
             catch (Exception ex)
             {
-                throw ex;
+              
+                Console.WriteLine("erro " + ex.Message);
             }
             return agendas;
         }

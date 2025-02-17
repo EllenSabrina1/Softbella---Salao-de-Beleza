@@ -25,6 +25,9 @@ values (1, '123.456.789-00', 'MG-12.345.678', '(11) 98765-4321', 'joao.silva@ema
 insert into Cliente (id_cli, cpf_cli, rg_cli, telefone_cli, email_cli, nome_cli, cidade_cli, rua_cli, bairro_cli, numero_cli, sexo_cli, tipo_cabelo_cli, data_nasc_cli) 
 values (2, '234.567.890-01', 'SP-23.456.789', '(11) 98876-5432', 'maria.oliveira@email.com', 'Maria Oliveira', 'Rio de Janeiro', 'Av. Brasil', 'Centro', '456', 'Feminino', 'Cacheado', '1990-09-22');
 
+insert into Cliente (id_cli, cpf_cli, rg_cli, telefone_cli, email_cli, nome_cli, cidade_cli, rua_cli, bairro_cli, numero_cli, sexo_cli, tipo_cabelo_cli, data_nasc_cli) 
+values (3, '423.527.234.11', 'SP-23.456.789', '(11) 98876-5555', 'tata.oira@email.com', 'Talita Oira', 'Rio de Janeiro', 'Av. Brasil', 'Centro', '321', 'Feminino', 'Liso', '1990-02-22');
+
 update Cliente set telefone_cli = '(11) 99999-8888' where id_cli = 1;
 
 delete from Cliente where id_cli = 2;
@@ -48,6 +51,9 @@ area_atuacao_fun varchar(300)
 
 insert into Funcionario (id_fun, cpf_fun, rg_fun, telefone_fun, email_fun, nome_fun, cidade_fun, rua_fun, bairro_fun, numero_fun, sexo_fun, data_nasc_fun, area_atuacao_fun) 
 values (1, '111111111', '749894290', '(69) 9999-3892', 'talita@exemplo.com', 'Talita Medeiros', 'Petrolina - RO', 'Rua Noé Inácio', 'Ernandes ','3562', 'Feminino', '1990-06-10', 'Especialista em Cachos' ); 
+
+insert into Funcionario (id_fun, cpf_fun, rg_fun, telefone_fun, email_fun, nome_fun, cidade_fun, rua_fun, bairro_fun, numero_fun, sexo_fun, data_nasc_fun, area_atuacao_fun) 
+values (2, '222222222', '123456789', '(69) 9888-1234', 'maria@exemplo.com', 'Maria Silva', 'Porto Velho - RO', 'Avenida Brasil', 'Centro', '4578', 'Feminino', '1985-03-22', 'Consultora de Imagem');
 
 UPDATE Funcionario 
 SET telefone_fun = '(69) 99262-3432', email_fun = 'novoemail@exemplo.com' 
@@ -155,7 +161,7 @@ FOREIGN KEY (id_fun_fk) REFERENCES Funcionario(id_fun)
 );
 INSERT INTO Funcionario (id_fun, nome_fun) VALUES (102, 'Marina Silva');
 
-insert into Caixa (id_caixa, data_transacao, tipo_transacao, valor_transacao, descricao_transacao, id_fun_fk) values  #####
+insert into Caixa (id_caixa, data_transacao, tipo_transacao, valor_transacao, descricao_transacao, id_fun_fk) values  
 (1, '2025-02-12', 'Entrada', 300.00, 'Pagamento por corte de cabelo e escova', 102);
 
 SELECT id_fun FROM Funcionario WHERE id_fun = 101;
@@ -179,15 +185,14 @@ FOREIGN KEY (id_cli_fk) REFERENCES Cliente(id_cli),
 FOREIGN KEY (id_fun_fk) REFERENCES Funcionario(id_fun)
 );
 
-Insert into Receber (id_receber, id_cli_fk, valor_total, valor_pago, saldo_devido, data_vencimento, data_pagamento, status_pagamento, forma_pagamento, descricao_recebimento, id_fun_fk) values
- (1, 101, 300.00, 300.00, 0.00, '2025-02-20', '2025-02-12', 'Pago', 'Cartão de Crédito', 'Pagamento de serviço de corte e escova', 5), 
- (2, 102, 500.00, 200.00, 300.00, '2025-02-25', Null, 'Pendente', 'Cartão de crédito', 'Pagamento de selagem', 6),
- (3, 103, 80.00, 80.00, 0.00, '2025-02-28', '2025-02-15', 'Pago', 'Pix', 'Pagamento de limpeza de pele', 7),
- (4, 104, 420.00, 320.00, 100.00, '2025-03-05', Null, 'Pendente', 'Cartão de Crédito', 'Pagamento de cabelo e maquiagem', 8);
+INSERT INTO Receber ( id_receber, id_cli_fk, valor_total, valor_pago, saldo_devido, data_vencimento, data_pagamento, status_pagamento, 
+forma_pagamento, descricao_recebimento, id_fun_fk ) VALUES (1, 3, 300.00, 300.00, 0.00, '2025-02-20', '2025-02-12', 'Pago', 'Cartão de Crédito', 'Pagamento de serviço de corte e escova', 2);
+
+Update Receber set status_pagamento = 'Pendente' where id_receber = 2;
 
 Delete from Receber where id_receber = 4;
 
-Update Receber set status_pagamento = 'Pendente' where id_receber = 2;
+select * from Receber;
 
 create table pop_up_agendar(
 id_pop int not null primary key auto_increment,
@@ -228,8 +233,7 @@ create table consultar_agenda (
   foreign key (id_pop_fk) references pop_up_agendar(id_pop) 
 );
 
-insert into consultar_agenda (cpf_conAgen, nom_conAgene, email_conAgen, celular_conAgen, id_pop_fk) values ('123.456.789-00', 'Ana Silva', 'ana@email.com', '11999990000', 1);
-insert into consultar_agenda (cpf_conAgen, nom_conAgene, email_conAgen, celular_conAgen, id_pop_fk) values ('987.654.321-00', 'Carlos Souza', 'carlos@email.com', '11988881111', 2);
+insert into consultar_agenda (cpf_conAgen, nom_conAgene, email_conAgen, celular_conAgen, id_pop_fk) values ('123.456.789-00', 'Ana Silva', 'ana@email.com', '11999990000', 1);    ##
 insert into consultar_agenda (cpf_conAgen, nom_conAgene, email_conAgen, celular_conAgen, id_pop_fk) values ('555.666.777-00', 'Mariana Oliveira', 'mariana@email.com', '11977772222', 3);
 
 delete from consultar_agenda where cpf_conAgen = '987.654.321-00';
@@ -253,9 +257,9 @@ insert into ConsultaProduto (id_con, produto_con, nome_con, marcar_con, quantida
 alter table ConsultaProduto add id_con_fk int;
 alter table ConsultaProduto add foreign key (id_con_fk) references ConsultaProduto (id_con);
 
-update ConsultaProduto set id_con_fk = 1 where (ConsultaProduto_con = 1, 'consulta B', 'cliente z', 'marca 2', 20, 30.0, 20.0);  # # #  
+update ConsultaProduto set id_con_fk = 1 where id_con = 1;
 
-delete from ConsultaProduto where id_con = 1;
+delete from ConsultaProduto where id_con = 2;
 
 create table ConsultarCliente(
 id_con_cli int primary key, 
@@ -330,7 +334,7 @@ id_ser_fk int,
 foreign key (id_ser_fk) references Servico(id_ser)
 );
 
-INSERT INTO Relatorio_Servico (id_rel_ser, nome_servico_rel_ser, tempo_previsto_rel_ser, observacao_rel_ser, profissional_rel_ser, valor_vista_rel_ser, valor_prazo_ral_ser, id_ser_fk)  ###
+INSERT INTO Relatorio_Servico (id_rel_ser, nome_servico_rel_ser, tempo_previsto_rel_ser, observacao_rel_ser, profissional_rel_ser, valor_vista_rel_ser, valor_prazo_ral_ser, id_ser_fk)  
 VALUES (1, 'Corte em camadas', '2024-02-11', 'Cliente satisfeito', 'Ellen Sabrina', 50.00, 60.00, 2);
 
 UPDATE Relatorio_Servico 
@@ -351,8 +355,10 @@ id_fun_fk int,
 FOREIGN KEY (id_pro_fk) REFERENCES Produto(id_pro),
 FOREIGN KEY (id_fun_fk) REFERENCES Funcionario(id_fun)
 );
+INSERT INTO Funcionario (id_fun, nome_fun) VALUES (101, 'Felipe Castanhare');
+INSERT INTO Produto (id_pro, nome_pro) VALUES (101, 'Selagem Aurea');
 
-Insert into Caixa_Relatorio_Produto (id_relatorio, id_pro_fk, data_relatorio, tipo_movimentacao, quantidade_movimentada, valor_unitario, valor_total, id_fun_fk)   ####
+Insert into Caixa_Relatorio_Produto (id_relatorio, id_pro_fk, data_relatorio, tipo_movimentacao, quantidade_movimentada, valor_unitario, valor_total, id_fun_fk)   
 values (1, 101, '2025-01-19', 'Venda', 3, 60.00, 180.00, 101); 
 
 Create table ConsultaFichaAnaminetica (
@@ -377,5 +383,6 @@ frequentou_piscina_30d, alergia, tratamento_medico, outro_problema_info) Values 
 update ConsultaFichaAnaminetica set tipo_cabelo = 'Ondulado' where id = 1;
 
 delete from ConsultaFichaAnaminetica where id = 1;
+ 
  
 

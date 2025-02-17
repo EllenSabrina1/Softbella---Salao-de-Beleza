@@ -52,7 +52,7 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Caixa" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Caixa" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_1"/>
                     <Image Source="/Recursos/Imagens/Icon caixa.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 
@@ -62,7 +62,7 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Receber" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Receber" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_2"/>
                     <Image Source="/Recursos/Imagens/Icon receber.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 
@@ -102,8 +102,8 @@
 
         <Rectangle Fill="#EDEDE9" RadiusX="20" RadiusY="20"  Height="900" Margin="80 100 80 80" Stroke="Gray" StrokeThickness="2" Grid.Column="2" Grid.RowSpan="2"/>
 
-        
-            <StackPanel Grid.Column="2" Grid.RowSpan="2" Margin="80,100,80,80">
+            
+        <StackPanel Grid.Column="2" Grid.RowSpan="2" Margin="80,100,80,80">
             <StackPanel>
                 
             <StackPanel Margin="0 20 780 0" >
@@ -137,8 +137,8 @@
           
                 
             </StackPanel>
+            <Button Content="Voltar" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 30 0 " Width="200" Height="35" Click="Button_Click_3"></Button>
 
-            
             <StackPanel Margin="-0 -30 10 10" Height="290">
 
                 <StackPanel HorizontalAlignment="Left" Margin="30" >
@@ -208,17 +208,19 @@
                 </Border>
             </StackPanel>
 
-           
-
 
 
             <StackPanel>
               <Rectangle Fill="#EDEDE9" RadiusX="20" RadiusY="20" Width="500" Height="450" Margin="830 -450 0 0"  Stroke="#737373" StrokeThickness="2"/>
 
-            <TextBlock Text="OBS:" FontSize="24" Margin="890 -430 20 20 "></TextBlock>
+               
+
+                <TextBlock Text="OBS:" FontSize="24" Margin="890 -430 20 20 "></TextBlock>
                 <TextBox Background="#D9D9D9" Height="350" Width="450" Margin="890 -420 90 20"></TextBox>
             </StackPanel>
         </StackPanel>
 
+
+        
     </Grid>
 </Window>

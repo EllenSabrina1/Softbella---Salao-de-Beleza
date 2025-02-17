@@ -222,6 +222,8 @@
                                 </CheckBox>
                             </Border>
 
+                        <Button Content="Próximo Cadastro" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="20" Width="200" Height="35" Click="Button_Click_8"></Button>
+                            
                         </StackPanel>
                     </StackPanel>
                 </Border>

@@ -81,5 +81,12 @@ namespace ProjetoPDS_SoftBella.Telas
         {
 
         }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            CadastroDeCliente cadastroDeCliente = new CadastroDeCliente();
+            cadastroDeCliente.Show();   
+            this.Close();   
+        }
     }
 }

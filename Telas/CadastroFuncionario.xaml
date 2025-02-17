@@ -49,7 +49,7 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Caixa" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Caixa" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_4"/>
                     <Image Source="/Recursos/Imagens/Icon caixa.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 
@@ -59,7 +59,7 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Receber" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Receber" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_5"/>
                     <Image Source="/Recursos/Imagens/Icon receber.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 
@@ -242,6 +242,8 @@
                 </StackPanel>
             </Border>
 
+            <Button Content="Próximo Cadastro" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="130" Width="200" Height="35" Click="Button_Click_6"></Button>
+            
         </Grid>
 
 

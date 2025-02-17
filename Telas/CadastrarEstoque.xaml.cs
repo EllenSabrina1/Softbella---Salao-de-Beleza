@@ -35,5 +35,35 @@ namespace ProjetoPDS_SoftBella.Telas
             consultar_Agenda.Show();
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Caixa caixa = new Caixa();
+            caixa.Show();
+            this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Receber receber = new Receber();
+            receber.Show();
+            this.Close();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            CadastroProduto cadastroProduto = new CadastroProduto();
+            cadastroProduto.Show();
+            this.Close();
+
+           
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Cadastro_servico cadastro_Servico = new Cadastro_servico();
+            cadastro_Servico.Show();    
+            this.Close();   
+        }
     }
 }

@@ -55,5 +55,27 @@ namespace ProjetoPDS_SoftBella.Telas
         {
 
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Caixa caixa = new Caixa();
+            caixa.Show();
+            this.Close();
+
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            Receber receber = new Receber();
+            receber.Show();
+            this.Close();
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            CadastroProduto cadastroProduto = new CadastroProduto();
+            cadastroProduto.Show(); 
+            this.Close();   
+        }
     }
 }

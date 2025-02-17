@@ -52,5 +52,19 @@ namespace ProjetoPDS_SoftBella.Telas
            
 
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Caixa caixa = new Caixa();
+            caixa.Show();
+            this.Close();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Receber receber = new Receber();
+            receber.Show();
+            this.Close();
+        }
     }
 }

@@ -52,7 +52,7 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Caixa" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Caixa" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_1"/>
                     <Image Source="/Recursos/Imagens/Icon caixa.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 
@@ -62,12 +62,12 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Receber" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Receber" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_2"/>
                     <Image Source="/Recursos/Imagens/Icon receber.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Cadastrar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Cadastrar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_3"/>
                     <Image Source="/Recursos/Imagens/Icon cadastrar.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 
@@ -200,9 +200,13 @@
                     <TextBlock Text="Obs:" Width="220" Margin="0 0 180 0" FontSize="24"/>
                     <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Margin="0 0 88 0" Width="316" Height="36">
                         <TextBox Width="257" Height="36" Text="" Background="Transparent" BorderBrush="Transparent" FontSize="20" Margin="0 0 0 0"/>
+                        
                     </Border>
                 </StackPanel>
 
+                <StackPanel >
+                    <Button Content="Próximo Cadastro" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="50" Width="200" Height="35" Click="Button_Click_4"/>
+                </StackPanel>
             </StackPanel>
         </StackPanel>
     </Grid>
