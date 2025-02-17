@@ -72,12 +72,12 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Consultar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Consultar" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_5"/>
                     <Image Source="/Recursos/Imagens/Icon consultar.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Ficha Anamnética" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Ficha Anamnética" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_6"/>
                     <Image Source="/Recursos/Imagens/Icon ficha.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 

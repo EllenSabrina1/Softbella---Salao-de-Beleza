@@ -75,7 +75,7 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274" >
-                    <Button Content="Ficha Anamnética" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0"/>
+                    <Button Content="Ficha Anamnética" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Grid.Row="0" Click="Button_Click_3"/>
                     <Image Source="/Recursos/Imagens/Icon ficha.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
 
@@ -106,6 +106,7 @@ HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 30 0 0"  Strok
                     </Border>
                 </WrapPanel>
 
+                
                 <TextBlock Text="Filtro de Busca:" FontWeight="Regular" FontSize="26" Margin="60 -820 0 0" />
                 <WrapPanel Width="180" Height="230" Margin="0 7 90 0">
 
@@ -132,6 +133,13 @@ HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 30 0 0"  Strok
                     <TextBlock Text="Miau do Grau    |" FontWeight="Medium" FontSize="26" Margin="250 -35 0 0" ></TextBlock>
                     <TextBlock Text="miaudograu@gmail.com   |" FontWeight="Medium" FontSize="26" Margin="470 -35 0 0" ></TextBlock>
                     <TextBlock Text="(11) 4002-8922  |" FontWeight="Medium" FontSize="26" Margin="800 -35 0 0" ></TextBlock>
+                    
+            <TextBlock Text="Filtro de Busca:" FontWeight="Regular" FontSize="26" Margin="60 -820 0 0" />
+
+                    <StackPanel >
+                        <Button Content="Próxima Consulta" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="9" Width="200" Height="35" Click="Button_Click_4"/>
+                    </StackPanel>
+
 
 
                     <WrapPanel Margin="30 30 30 0">

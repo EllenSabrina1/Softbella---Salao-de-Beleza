@@ -81,7 +81,9 @@ namespace ProjetoPDS_SoftBella.Telas
 
     private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            ConsultarCliente consultarCliente = new ConsultarCliente();
+            consultarCliente.Show();
+            this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -106,6 +108,13 @@ namespace ProjetoPDS_SoftBella.Telas
         {
             CadastrarEstoque cadastrarEstoque = new CadastrarEstoque();
             cadastrarEstoque.Show();
+            this.Close();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            ConsultaFichaAnaminetica consultaFichaAnaminetica = new ConsultaFichaAnaminetica();
+            consultaFichaAnaminetica.Show();
             this.Close();
         }
     }

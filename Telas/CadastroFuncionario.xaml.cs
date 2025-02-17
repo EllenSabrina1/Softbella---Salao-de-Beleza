@@ -77,5 +77,19 @@ namespace ProjetoPDS_SoftBella.Telas
             cadastroProduto.Show(); 
             this.Close();   
         }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            ConsultarCliente consultarCliente = new ConsultarCliente();
+            consultarCliente.Show();
+            this.Close();
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            ConsultaFichaAnaminetica consultaFichaAnaminetica = new ConsultaFichaAnaminetica();
+            consultaFichaAnaminetica.Show();
+            this.Close();
+        }
     }
 }
