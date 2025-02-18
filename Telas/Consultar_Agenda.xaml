@@ -109,23 +109,24 @@
 
             <DockPanel Margin="10 300 10 10" Width="1100" Height="500">
                     <TextBox DockPanel.Dock="Top" Margin="0,0,0,10" />
-                    <DataGrid Name="Agendamentos" ItemsSource="{Binding}" SelectionChanged="Agendamentos_SelectionChanged" AutoGenerateColumns="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
-                        <DataGrid.Columns>
+                <DataGrid Name="Agendamentos" ItemsSource="{Binding}" SelectionChanged="Agendamentos_SelectionChanged" AutoGenerateColumns="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
+                    <DataGrid.Columns>
 
 
-                            <DataGridTextColumn Header="ID" Width="40" Binding="{Binding id}" />
-                            <DataGridTextColumn Header="Dia" Width="150" Binding="{Binding dia, StringFormat='dd/MM/yyyy'}" />
-                            <DataGridTextColumn Header="Retorno" Width="150" Binding="{Binding retorno, StringFormat='dd/MM/yyyy'}" />
-                            <DataGridTextColumn Header="Serviço" Width="150" Binding="{Binding servico}" />
-                            <DataGridTextColumn Header="Horário" Width="130" Binding="{Binding horario, StringFormat='hh\\:mm'}" />
-                            <DataGridTextColumn Header="Profissional" Width="150" Binding="{Binding profissional}" />
+                        <DataGridTextColumn Header="ID" Width="40" Binding="{Binding id}" />
+                        <DataGridTextColumn Header="Dia" Width="150" Binding="{Binding dia, StringFormat='dd/MM/yyyy'}" />
+                        <DataGridTextColumn Header="Retorno" Width="150" Binding="{Binding retorno, StringFormat='dd/MM/yyyy'}" />
+                        <DataGridTextColumn Header="Serviço" Width="150" Binding="{Binding servico}" />
+                        <DataGridTextColumn Header="Horário" Width="130" Binding="{Binding horario}" />
+                        <!--<DataGridTextColumn Header="Horário" Width="130" Binding="{Binding horario, StringFormat='hh\\:mm'}" />-->
+                        <DataGridTextColumn Header="Profissional" Width="150" Binding="{Binding profissional}" />
+                        <DataGridTextColumn Header="Tempo" Width="100" Binding="{Binding tempo}" />
+                        <!--<DataGridTextColumn Header="Tempo" Width="100" Binding="{Binding tempo, StringFormat='hh\\:mm'}" />-->
+                        <DataGridTextColumn Header="Observações" Width="300" Binding="{Binding observacoes}" />
+                    </DataGrid.Columns>
+                </DataGrid>
 
-                            <DataGridTextColumn Header="Tempo" Width="100" Binding="{Binding tempo, StringFormat='hh\\:mm'}" />
-                            <DataGridTextColumn Header="Observações" Width="300" Binding="{Binding observacoes}" />
-                        </DataGrid.Columns>
-                    </DataGrid>
-
-                </DockPanel>
+            </DockPanel>
             
 
 

@@ -45,30 +45,30 @@ namespace ProjetoPDS_SoftBella.Telas
 
         private void Voltar_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow inicio = new MainWindow(); // Instancia a janela anterior
-            inicio.Show(); // Exibe a janela anterior
-            this.Close(); // Fecha a janela atual
+            MainWindow inicio = new MainWindow(); 
+            inicio.Show();
+            this.Close(); 
         }
 
         private void EditarAgendamento_Click(object sender, RoutedEventArgs e)
         {
-            // Pega o agendamento selecionado
+            
             var agendamento = (sender as Button).CommandParameter as PopUpAgendar;
             if (agendamento != null)
             {
-                // Lógica para editar
+                
                 MessageBox.Show($"Editar Agendamento: {agendamento.id}");
             }
         }
 
-        // Evento para o botão Excluir
+        
         private void ExcluirAgendamento_Click(object sender, RoutedEventArgs e)
         {
-            // Pega o agendamento selecionado
+            
             var agendamento = (sender as Button).CommandParameter as PopUpAgendar;
             if (agendamento != null)
             {
-                // Lógica para excluir
+                
                 MessageBox.Show($"Excluir Agendamento: {agendamento.id}");
             }
         }
@@ -77,9 +77,9 @@ namespace ProjetoPDS_SoftBella.Telas
         {
 
         }
-    
 
-    private void Button_Click(object sender, RoutedEventArgs e)
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             ConsultarCliente consultarCliente = new ConsultarCliente();
             consultarCliente.Show();

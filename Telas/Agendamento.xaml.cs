@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetoPDS_SoftBella.arquivos.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,32 @@ namespace ProjetoPDS_SoftBella.Telas
         public Agendamento()
         {
             InitializeComponent();
+            CarregarClientes();
+        }
+
+        private void CarregarClientes()
+        {
+            try
+            {
+                ClienteDTO clienteDTO = new ClienteDTO();
+                List<Cliente> clientes = clienteDTO.GetClientes();
+
+                if (clientes.Count > 0)
+                {
+                    dgCliente.ItemsSource = clientes;
+                }
+                else
+                {
+                    MessageBox.Show("Nenhum cliente encontrado.");
+                }
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao carregar clientes: {ex.Message}");
+            }
+
+
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)

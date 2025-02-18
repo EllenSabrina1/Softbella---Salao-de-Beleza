@@ -4,7 +4,7 @@ use SoftBella_pds_bd;
 # Alunas: Anna Flávya, Bianca Eshiley, Iannay Luiza, Emilly Santana, Ellen Sabrina e Larah Schultes. 
 
 create table Cliente(
-id_cli int primary key,
+id_cli int not null primary key auto_increment,
 cpf_cli varchar(300),
 rg_cli varchar(300),
 telefone_cli varchar(300),
@@ -16,7 +16,8 @@ bairro_cli varchar(300),
 numero_cli varchar(300),
 sexo_cli varchar(300),
 tipo_cabelo_cli varchar(300),
-data_nasc_cli date
+data_nasc_cli date,
+observacoes_cli varchar(300)
 );
 
 insert into Cliente (id_cli, cpf_cli, rg_cli, telefone_cli, email_cli, nome_cli, cidade_cli, rua_cli, bairro_cli, numero_cli, sexo_cli, tipo_cabelo_cli, data_nasc_cli) 

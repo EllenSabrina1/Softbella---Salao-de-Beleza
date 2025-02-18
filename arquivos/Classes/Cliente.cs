@@ -21,7 +21,8 @@ namespace ProjetoPDS_SoftBella.arquivos.Classes
         public string sexo { get; set; }
         public string tipo_cabelo { get; set; }
         public DateTime? data_nasc { get; set; }
-        public Cliente(int id, string cpf, string rg, string telefone, string email, string nome, string cidade, string rua, string bairro, string numero, string sexo, string tipo_cabelo, DateTime? data_nasc)
+        public string observacoes { get; set; } 
+        public Cliente(int id, string cpf, string rg, string telefone, string email, string nome, string cidade, string rua, string bairro, string numero, string sexo, string tipo_cabelo, DateTime? data_nasc, string observacoes)
         {
             Id = id;
             this.cpf = cpf;
@@ -36,6 +37,7 @@ namespace ProjetoPDS_SoftBella.arquivos.Classes
             this.sexo = sexo;
             this.tipo_cabelo = tipo_cabelo;
             this.data_nasc = data_nasc;
+            this.observacoes = observacoes;
         }
         public Cliente()
         {
