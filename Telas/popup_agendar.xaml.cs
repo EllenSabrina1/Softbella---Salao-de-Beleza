@@ -26,7 +26,7 @@ namespace ProjetoPDS_SoftBella.Telas
         }
 
         private PopUpAgendar procedimento_ = new PopUpAgendar();
-        private PopUpAgendarDAO procedimentoDAO_ = new PopUpAgendarDAO(); // Objeto responsável por acessar o banco de dados
+        private PopUpAgendarDAO procedimentoDAO_ = new PopUpAgendarDAO(); 
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -35,16 +35,18 @@ namespace ProjetoPDS_SoftBella.Telas
                 procedimento_.dia = DateTime.Parse(dt_dia.Text);
                 procedimento_.retorno = DateTime.Parse(dt_retorno.Text);
                 procedimento_.servico = cb_servico.Text;
-                procedimento_.horario = Convert.ToInt32(txt_horario.Text);
+
+                procedimento_.horario = txt_horario.Text;
                 procedimento_.profissional = cb_profissional.Text;
-                procedimento_.tempo = Convert.ToInt32(txt_tempo.Text);
+
+                procedimento_.tempo = txt_tempo.Text;
                 procedimento_.observacoes = txt_obs.Text;
 
                 procedimentoDAO_.Insert(procedimento_); // Insere no banco
                 MessageBox.Show("Usuario cadastrado com sucesso.");
 
-                MainWindow inicioc = new MainWindow();
-                inicioc.Show(); 
+                Consultar_Agenda inicioc = new Consultar_Agenda();
+                inicioc.Show();
                 this.Close(); // Fecha a janela atual
             }
             catch (Exception ex)

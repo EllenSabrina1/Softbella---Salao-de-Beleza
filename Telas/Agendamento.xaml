@@ -96,7 +96,7 @@
                 </TextBox>
             </StackPanel>
 
-            <DataGrid x:Name="dataGrid" Background="#E3D5CA" AutoGenerateColumns="False" FontSize="27" FontFamily="Inria Serif"
+            <DataGrid x:Name="dgCliente" Background="#E3D5CA" AutoGenerateColumns="False" FontSize="27" FontFamily="Inria Serif"
               Width="1220" Height="520" VerticalAlignment="Center" HorizontalAlignment="Center" SelectionChanged="dataGrid_SelectionChanged">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="CPF" Binding="{Binding Cpf}" Width="*"/>

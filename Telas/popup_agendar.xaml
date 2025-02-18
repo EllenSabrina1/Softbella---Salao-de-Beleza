@@ -16,12 +16,14 @@
 
         <Border Grid.Column="1" CornerRadius="25" BorderBrush="Black" BorderThickness="1" Width="500" Height="500" Margin="20 220 0 0">
             <StackPanel>
+            <!--<StackPanel>
+            
                 <StackPanel Margin="10 20 0 0" >
                     <TextBlock Text="Produtos utilizados" Width="300" Margin="20 0 180 0" FontSize="24"/>
                     <Border BorderBrush="White" BorderThickness="1" CornerRadius="10" Margin="28 10 180 0" Width="280" Height="35">
                         <TextBox Width="280" Height="38" Text="Digite o nome do produto" Background="White" FontSize="20" Margin="0 0 0 0" BorderBrush="Transparent"/>
                     </Border>
-                </StackPanel>
+                </StackPanel>-->
                 <Button Content="Salvar"  Width="100" Margin="130 380 0 0" Click="Button_Click"/>
                 <Button Content="Sair"  Width="100" Margin="350 -20 0 0" Click="Button_Click_1"/>
                 <!--<Image Source="/Recursos/Imagens/e62cdd1a-7899-4fcc-ad0b-ffe4b80ca522 1.png" Width="50" Margin="430 350 0 0"/>
