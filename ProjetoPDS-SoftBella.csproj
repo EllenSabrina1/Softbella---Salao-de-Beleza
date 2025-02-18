@@ -352,7 +352,7 @@
     <Resource Include="Recursos\Imagens\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Arquivo BD\softbella_pds_bd.sql" />
+    <Content Include="Arquivo BD\softbella_pds_bd %28certo%29.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

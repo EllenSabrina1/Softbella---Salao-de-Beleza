@@ -75,7 +75,7 @@
                 </WrapPanel>
 
                 <WrapPanel Width="274">
-                    <Button Content="Relatório" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30"/>
+                    <Button Content="Relatório" Background="#EDEDE9" Width="274" Height="42" FontSize="20" Margin="0 0 0 30" Click="Button_Click_6"/>
                     <Image Source="/Recursos/Imagens/Icon relatorio.png" Width="25" Margin="15 -98 0 0"/>
                 </WrapPanel>
             </StackPanel>

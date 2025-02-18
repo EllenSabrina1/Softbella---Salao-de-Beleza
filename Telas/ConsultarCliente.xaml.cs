@@ -59,9 +59,11 @@ namespace ProjetoPDS_SoftBella.Telas
 
         }
 
-        private void Button_Click_5()
+        private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-
+            Relatorio_servico relatorio_Servico = new Relatorio_servico();
+            relatorio_Servico.Show();
+            this.Close();
         }
     }
 }

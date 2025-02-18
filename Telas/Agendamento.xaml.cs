@@ -81,5 +81,12 @@ namespace ProjetoPDS_SoftBella.Telas
             consultaFichaAnaminetica.Show();
             this.Close();
         }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            Relatorio_servico relatorio_Servico = new Relatorio_servico();
+            relatorio_Servico.Show();
+            this.Close();
+        }
     }
 }
